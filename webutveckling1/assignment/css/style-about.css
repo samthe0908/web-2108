@@ -1,0 +1,76 @@
+header {
+    background-color: #8f6f97;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+img {
+    border-radius: 10px;
+    float: left;
+
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 500px; /* only for demonstration, should be removed */
+    background:lavender ;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    width: 70%;
+    background-color: lavender;
+    height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.my_image {
+    margin: 0;
+    background-image: url("../img/samantha.jpg");
+    position: static;
+    background-color: #cccccc;
+    height: 1000px;
+    width: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.my_text {
+    text-align: left;
+    color: darkviolet;
+}
+
+p {
+    color: blue;
+    text-align: right;
+    font-size: 4em;
+    margin-right: 4em;
+}

@@ -17,9 +17,3 @@ S
 #webutveckling1/assignment/test.html,9\b\9b528f16a8f2d0bbaca945f4d9891114942ef906
 ]
 -webutveckling1/assignment/css/style-about.css,c\5\c5c46ed2a3b002249ea0600ccdc369f4bd82c34e
-T
-$webutveckling1/assignment/about.html,c\a\ca2eef1db12f97e922a5ad3f6fe47f26540be0da
-W
-'webutveckling1/assignment/css/style.css,8\a\8ae972fbc23a7ee77baaf05c0d967863b21cbea8
-V
-&webutveckling1/assignment/courses.html,c\6\c68d296c4626627a2161a2d24f5b17141ef79f53

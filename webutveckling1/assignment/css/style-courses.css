@@ -1,0 +1,35 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+
+
+}
+#v-plan td, #date td , #v-plan th, #date th{
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: indigo;
+    color: white;
+}
+.Ork{
+    background-color: gold;
+}
+.web1{
+    background-color: aqua;
+}
+.pro1{
+    background-color: burlywood;
+}
+.digit1{
+    background-color: green;
+}
+.gränsnitt{
+    background-color: hotpink;
+}
+.web2{
+    background-color: chartreuse;
+}
+#date tr:nth-child(odd){background-color: #cccccc}

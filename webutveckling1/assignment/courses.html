@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>courses</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/style-courses.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="topbox">
+<nav>
+    <ul id='navbar'>
+        <li class='navbar-item'>
+            <a class='navbar-link' href='index.html'>INDEX</a>
+        </li>
+        <li class='navbar-item'>
+            <a class='navbar-link' href='about.html'>ABOUT</a>
+        </li>
+        <li class='navbar-item'>
+            <a class='navbar-link' href='courses.html'>COURSES</a>
+        </li>
+        <li class='navbar-item'>
+            <a class='navbar-link' href='blogg.html'>BLOGG</a>
+        </li>
+        <li class='navbar-item'>
+            <a class='navbar-link' href='procucts.html'>PRODUCTS</a>
+        </li>
+        <li class='navbar-item'>
+            <a class='navbar-link' href='other.html'>OTHER</a>
+        </li>
+    </ul>
+</nav>
 <header>
     <h2>Webutveckling</h2>
 </header>
+</div>
+<section class="main-content">
 <h1>Webbutveckling</h1>
 
 <p>Utbildningen på Campus Mölndal är både teoretisk och praktisk.
@@ -21,13 +48,15 @@
     information i webbläsaren samt utifrån dessa tekniker skapa och vidareutveckla statiska och
     dynamiska webbsidor, webbplatser eller webbapplikationer.
 </p>
+</section>
 <h2>Kurser</h2>
+
 <ul>
-    <li>Webutvecklig 1, 100 poäng</li>
-    <li>Webutveckling 2, 100 poäng </li>
-    <li>Webutveckling 3, 100 poäng</li>
+    <li><a href="#webb1">Webutveckling 1, 100 poäng</a></li>
+    <li><a href="#webb2">Webutveckling 2, 100 poäng</a></li>
+    <li><a href="#webb3">Webutveckling 3, 100 poäng</a></li>
 </ul>
-<h3>Webbutveckling 1</h3>
+<h3 id="webb1">Webutveckling 1</h3>
 <h4>Undervisningen i kursen ska behandla följande centrala innehåll:</h4>
 <ul>
     <li>Webben som plattform, dess historia och samhällspåverkan</li>
@@ -35,8 +64,8 @@
         server.</li>
     <li>Publikation av webbplatser med och utan webbpubliceringssystem.
     <li>Processen för ett webbutvecklingsprojekt med målsättningar, planering, specifikation av
-    <li> struktur och design, kodning, optimering, testning, dokumentation och uppföljning.</li>
-        Märkspråk och deras inbördes roller, syntax och semantik  där det huvudsakliga innehållet är –
+        struktur och design, kodning, optimering, testning, dokumentation och uppföljning.</li>
+    <li>Märkspråk och deras inbördes roller, syntax och semantik  där det huvudsakliga innehållet är –
         standarderna för HTML och CSS samt orientering om Ecmaskript och
         dokumentobjektsmodellen (DOM).</li>
     <li>Teckenkodning, begrepp, standarder och handhavande.</li>
@@ -52,34 +81,37 @@
         och lagen om elektronisk kommunikation.</li>
     <li> Terminologi inom området webbutveckling.</li>
 </ul>
-<h4>webutveckling1 planering HT_21</h4>
-<table id="v-plan">
+<h4></h4>
 
+<table id="v-plan">
+    <caption>webutveckling1 vecko planering HT_21</caption>
     <tr>
-        <th>Kurser / Vecka</th>
-        <th>33</th>
-        <th>34</th>
-        <th>35</th>
-        <th>36</th>
-        <th>37</th>
-        <th>38</th>
-        <th>39</th>
-        <th>40</th>
-        <th>41</th>
-        <th>42</th>
-        <th>43</th>
-        <th>44</th>
-        <th>45</th>
-        <th>46</th>
-        <th>47</th>
-        <th>48</th>
-        <th>49</th>
-        <th>50</th>
-        <th>51</th>
-        <th>52</th>
+        <th id="kv">Kurser / Vecka</th>
+        <th id="v33"> 33</th>
+        <th id="v34"> 34</th>
+        <th id="v35"> 35</th>
+        <th id="v36"> 36</th>
+        <th id="v37"> 37</th>
+        <th id="v38"> 38</th>
+        <th id="v39"> 39</th>
+        <th id="v40"> 40</th>
+        <th id="v41"> 41</th>
+        <th id="v42"> 42</th>
+        <th id="v43"> 43</th>
+        <th id="v44"> 44</th>
+        <th id="v45"> 45</th>
+        <th id="v46"> 46</th>
+        <th id="v47"> 47</th>
+        <th id="v48"> 48</th>
+        <th id="v49"> 49</th>
+        <th id="v50"> 50</th>
+        <th id="v51"> 51</th>
+        <th id="v52"> 52</th>
+
     </tr>
     <tr>
-        <td class="Ork">ORK matte</td><td></td>
+        <td class="Ork">ORK matte</td>
+            <td></td>
             <td></td>
             <td class="Ork">x</td>
             <td class="Ork">x</td>
@@ -218,6 +250,7 @@
 </table>
 
 <table id="date">
+    <caption>webutveckling1 period-planering HT-21</caption>
     <tr>
         <th>Kurs</th>
         <th>Startdatum</th>
@@ -262,7 +295,7 @@
         <td>2021-12-31</td>
     </tr>
 </table>
-<h3>Webbutveckling 2</h3>
+<h3 id="webb2"> Webbutveckling 2</h3>
 <h4>Undervisningen i kursen ska behandla följande centrala innehåll:</h4>
 <ul>
     <li>Webben som plattform för applikationer av olika slag.</li>
@@ -285,7 +318,7 @@
         effektiva åtgärder.</li>
     <li> Terminologi inom området webbutveckling.</li>
 </ul>
-<h3>Webbutveckling 3</h3>
+<h3 id="webb3">Webbutveckling 3</h3>
 <h4>Undervisningen i kursen ska behandla följande centrala innehåll:</h4>
 
 <ul>
@@ -309,7 +342,9 @@
         effektiva åtgärder.</li>
     <li>Terminologi inom området webbutveckling.</li>
 </ul>
-
+<footer>
+    <p>by Samantha </p>
+</footer>
 
 </body>
 </html>

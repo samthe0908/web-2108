@@ -1,18 +1,30 @@
+
+*{
+    box-sizing: border-box;
+}
 body {
+    margin: 0;
+    padding: 0;
     background-color: lavender;
 }
 header {
-    background-color: #8f6f97;
-    padding: 20px;
+    padding-top: 30px;
+    width: 100%;
     text-align: center;
+    background-color: blueviolet;
     font-size: 30px;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1 {
     font-size: 40px;
 }
-h2{
+
+header h2{
     font-size: 30px;
+    margin-top: 20px;
 }
 h3{
     font-size: 25px;
@@ -24,3 +36,17 @@ p {
     font-size: 15px;
     margin-right: 4em;
 }
+
+@media only screen and (max-width:1200px) {
+    .topbox {
+        display: flex;
+        flex-direction: row;
+        /*width: 100%;*/
+    }
+    #v-plan{
+        width: 50%;
+    }
+}
+
+
+

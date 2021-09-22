@@ -33,8 +33,9 @@ h4{
     font-size: 20px;
 }
 p {
-    font-size: 15px;
+    font-size: 30px;
     margin-right: 4em;
+    margin-left: 1em;
 }
 
 @media only screen and (max-width:1200px) {

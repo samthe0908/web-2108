@@ -1,18 +1,21 @@
 
 #navbar {
     list-style-type: none;
-   position: fixed;
-    left: 0;
+    position: fixed;
+    left: 0;.
     top: 0;
     width:100%;
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
     overflow: hidden;
-    background-color: chocolate;
+    background-color: lightsalmon;
+    height: 5vh;
 }
 
 .navbar-item {
     float: left;
+
+
 }
 
 .navbar-link {
@@ -21,9 +24,9 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
 
-.navbar-link:hover:not(.active) {s
+}
+.navbar-link:hover:not(.active) {
     background-color: #777;
 }
 

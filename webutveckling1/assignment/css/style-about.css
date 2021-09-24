@@ -1,37 +1,81 @@
-
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 70vh;
+}
+img, article{
+    border-style: ridge;
+    border-width: thick;
+    border-color: burlywood;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-right-width: 20px;
+    border-left-width: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+article{
+    width: 40vw;
+    height: 70vh;
+    margin-right: 20px;
+}
+article h1{
+    font-size: 1em;
+}
+article p{
+    font-size: medium;
+}
 img {
-   /* border-radius: 10px;*/
-    padding: 20px;
-    float: left;
+    width: 30vw;
+    height: 70vh;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-h1 {
-    font-size: 40px;
+
+#fritid, #utbildning, #arbet{
+    border-style: ridge;
+    border-width: thick;
+    border-color: burlywood;
+    border-top-width: 20px;
+    border-bottom-width: 20px;
+    border-right-width: 20px;
+    border-left-width: 20px;
+    /*margin-left: 20px;*/
+    margin-right: 20px;
+    width: 30vw;
 }
-h2{
-    font-size: 35px;
+#fritid, #arbet{
+    height: 20vh;
 }
-p {
-    font-size: 20px;
-    margin-right: 4em;
+#utbildning{
+    height: 30vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-ul li {
+#fritid{
+    margin-top: 20px;
+}
+#arbet{
+    margin-bottom: 20px;
+}
+
+section ul li {
     list-style-type: square;
-    font-size: 20px;
-}
-
-/* härifrån är till test.html */
-.my_image {
-    margin: 0;
-    background-image: url("../img/samantha.jpg");
-    position: static;
-    background-color: #cccccc;
-    height: 1000px;
-    width: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: large;
 
 }
-.my_text {
+section ul li p{
     text-align: left;
-    color: darkviolet;
+    font-size: medium;
 }
+.in-container{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 30vw;
+}
+
+

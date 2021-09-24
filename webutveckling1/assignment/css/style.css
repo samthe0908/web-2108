@@ -8,20 +8,23 @@ body {
     background-color: lavender;
 }
 header {
-    padding-top: 30px;
-    width: 100%;
+    padding-top: 40px;
+    /*width: 100%;*/
     text-align: center;
-    background-color: blueviolet;
+    background-color: #d9a4e7;
     font-size: 30px;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 15vh;
 }
 h1 {
     font-size: 40px;
 }
-
+h2{
+    font-size: 35px;
+}
 header h2{
     font-size: 30px;
     margin-top: 20px;
@@ -33,21 +36,12 @@ h4{
     font-size: 20px;
 }
 p {
-    font-size: 30px;
+    font-size: 20px;
     margin-right: 4em;
     margin-left: 1em;
+    text-align: center;
 }
 
-@media only screen and (max-width:1200px) {
-    .topbox {
-        display: flex;
-        flex-direction: row;
-        /*width: 100%;*/
-    }
-    #v-plan{
-        width: 50%;
-    }
-}
 
 
 

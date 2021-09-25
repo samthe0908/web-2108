@@ -1,58 +1,6 @@
 *{
 box-sizing: border-box;
 }
-
-#subnav {
-    list-style-type: none;
-    width:100%;
-    margin: 0;
-    overflow: hidden;
-    border: solid darkred;
-    /*justify-content: center;*/
-    padding-top: 40px;
-    background-color: #d9a4e7;
-    height: 15vh;
-}
-#subnav-text{
-     font-size: 2em;
-     font-family:"Comic Sans MS";
-     float: left;
-     display: block;
-     text-align: center;
-     block-size: fit-content ;
- }
-.subnav-item {
-    float: right;
-}
-.subnav-link {
-    display: block;
-    color: white;
-    font-size: 1.5em;
-    text-align: center;
-    padding: 10px 14px 16px;
-    text-decoration: none;
-}
-.subnav-link:hover:not(.active) {
-    background-color: #777;
-}
-.active{
-    background-color: #04AA6D;
-}
-form.subnav-item input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-}
-
-form.subnav-item::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 main{
     background-color: whitesmoke;
     width: 70vw;

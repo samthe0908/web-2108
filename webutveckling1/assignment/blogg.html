@@ -6,12 +6,12 @@
     <title>blogg</title>
     <link rel="stylesheet" href="css/stlyle-blogg.css">
     <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/subnavbar.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<nav>
+<div class="nav-contain">
+       <nav class="nav1">
     <ul id='navbar'>
         <li class='navbar-item'>
             <a class='navbar-link' href='index.html'>INDEX</a>
@@ -33,46 +33,72 @@
         </li>
     </ul>
 </nav>
-    <nav>
+    <nav class="nav2">
         <ul id='subnav'>
             <li id='subnav-text'>
-                blogg om mina resor
+                blogg om mina resor & maten
             </li>
             <li class='subnav-item'>
                 <a class='subnav-link' href='#'>Thailand</a>
             </li>
             <li class='subnav-item'>
                 <button class="dropbtn">Destination
-                    <em class="fa fa-caret-down"></em>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Mallorca</a>
-                    <a href="#">Bali</a>
+                    <a href="#">Munchen</a>
                     <a href="#">Dubrovnik</a>
+                    <a href="#">Bali</a>
+                    <a href="#">Mallorca</a>
                 </div>
             </li>
             <li class='subnav-item'>
-            <a class='subnav-link' href='#'>Om</a>
-        </li>
-<!--            <form class="subnav-item" action="#" style="margin:auto;max-width:300px">-->
-                <input class="subnav-item" action="#" style="margin:auto;max-width:300px"
-                       type="text" placeholder="Search.." name="search" >
-<!--            </form>-->
+                <a class='subnav-link' href='#'>Goda Recept</a>
+            </li>
+<!--&lt;!&ndash;                <input class="subnav-item" action="#" style="margin:auto;max-width:300px"&ndash;&gt;-->
+<!--&lt;!&ndash;                       type="text" placeholder="Search.." name="search" >&ndash;&gt;-->
         </ul>
     </nav>
+</div>
+<div class="wrapper">
+    <section class="om-blogg">
+        <article>
+            <img src="img/jag%20och%20barn.jpg" alt="minfamilj" />
+                <h2>Resor med mina barn</h2>
+                <p>Jag har alltid tyckt om att resa välden över.
+                     En av min bucket list är att resa jorden runt.
+                </p>
+        </article>
+    </section>
+       <section class="om-blogg">
+           <article>
+               <img src="img/mat1.png" alt="minfamilj" />
+               <h2>Mat med mina barn</h2>
+               <p>Det blir alltid utmaning för mig att göra alla mina tre barn nöjda med mat.
+                   Jag lagt upp massor recept med variation av mat. Från världens alla hörn.
+               </p>
+           </article>
+       </section>
+    <aside>
+        <section class="just-nu">
+            <h2>Just nu</h2>
+            <p>Vi planerar mitt barn 18 års firande i vintern.
+            Krav för resmålet ska vara vid stranden, Varma breddgraden </p>
+        </section>
+        <section class="prenumerera">
+            <h2>Uppdate</h2>
+            <p>Missa inga nya inlägg, fyll i din E-POST</p>
+            <form action="#">
+<!--                <label for="email">din E-postadress:</label>-->
+                <input type="email" id="email" name="email" placeholder="E-postadress">
+                <input type="submit" value="PRENUMERERA">
+            </form>
 
-<main>
-    <h1> Resor med mina barn </h1>
-    <article>
-        <p>Jag har alltid tyckt om att resa välden över. En av min buckletlist är att resa jorden runt </p>
-    </article>
-</main>
-<aside>
+        </section>
+    </aside>
+</div>
+<!--<footer>-->
+<!--    <p>by Samantha </p>-->
+<!--</footer>-->
 
-
-</aside>
-<footer>
-    <p>by Samantha </p>
-</footer>
 </body>
 </html>

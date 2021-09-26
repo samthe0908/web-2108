@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blogg</title>
-    <link rel="stylesheet" href="css/stlyle-blogg.css">
+    <link rel="stylesheet" href="css/style-blogg.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/subnavbar.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,9 +39,7 @@
             <li id='subnav-text'>
                 blogg om mina resor & maten
             </li>
-            <li class='subnav-item'>
-                <a class='subnav-link' href='#'>Thailand</a>
-            </li>
+
             <li class='subnav-item'>
                 <button class="dropbtn">Destination
                 </button>
@@ -52,10 +51,15 @@
                 </div>
             </li>
             <li class='subnav-item'>
-                <a class='subnav-link' href='#'>Goda Recept</a>
+                <button class="dropbtn">Goda-Recept
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">asian</a>
+                    <a href="#">Europa</a>
+                    <a href="#">America</a>
+                    <a href="#">Afrika</a>
+
             </li>
-<!--&lt;!&ndash;                <input class="subnav-item" action="#" style="margin:auto;max-width:300px"&ndash;&gt;-->
-<!--&lt;!&ndash;                       type="text" placeholder="Search.." name="search" >&ndash;&gt;-->
         </ul>
     </nav>
 </div>
@@ -78,27 +82,26 @@
                </p>
            </article>
        </section>
-    <aside>
-        <section class="just-nu">
+    <aside id="info">
+        <section class="divers">
+
             <h2>Just nu</h2>
             <p>Vi planerar mitt barn 18 års firande i vintern.
-            Krav för resmålet ska vara vid stranden, Varma breddgraden </p>
+
         </section>
-        <section class="prenumerera">
+        <section class="divers">
+
             <h2>Uppdate</h2>
             <p>Missa inga nya inlägg, fyll i din E-POST</p>
             <form action="#">
-<!--                <label for="email">din E-postadress:</label>-->
                 <input type="email" id="email" name="email" placeholder="E-postadress">
                 <input type="submit" value="PRENUMERERA">
             </form>
-
         </section>
     </aside>
+    <footer>
+        <p>by Samantha </p>
+    </footer>
 </div>
-<!--<footer>-->
-<!--    <p>by Samantha </p>-->
-<!--</footer>-->
-
 </body>
 </html>

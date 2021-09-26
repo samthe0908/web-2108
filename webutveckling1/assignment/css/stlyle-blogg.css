@@ -1,9 +1,50 @@
 *{
 box-sizing: border-box;
 }
-main{
-    background-color: whitesmoke;
-    width: 70vw;
+.nav-contain{
+    display: block;
+    float: top;
+    width: auto;
+    height: 20vh;
+    margin: 0px;
+    border: 2px solid green;
+}
+aside, footer {
+    display: block;
+}
+.wrapper{
+    width: 1280px;
+    margin: 0px auto 20px auto;
+}
+section.om-blogg{
+    float: left;
+    width: 800px;
+    border-right:2px solid #d9a4e7 ;
+}
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+article h2{
+    margin-top: 20px;
+}
+article p{
+    text-align: left;
+}
+
+img{ float: left;
+    width: 250px;
+    height: 220px;
+    padding: 5px;
     margin: 20px;
+    border: 1px solid seashell;
+}
+
+.wrapper footer{
+    float: bottom;
+    width: 100%;
+    position: fixed;
+
 }
 

@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+section.head {
+    float: top;
+    height: 300px;
+    width: auto;
+}
+article.in-text{
+    height: 200px;
+    width: auto;
+    float: top;
+    margin-left: 100px;
+    margin-right:100px ;
+    margin-bottom: 50px;
+    alignment: center;
+}
+img{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.in-text h1{
+    text-align: center;
+}
+iframe{
+
+    float: top;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    border: solid red;
+
+
+}

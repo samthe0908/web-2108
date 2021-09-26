@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+#kravlist p{
+    text-align: left;
+    font-size: large;
+}
+#kravlist li{
+    list-style: square;
+}

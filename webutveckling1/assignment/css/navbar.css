@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 #navbar {
     list-style-type: none;
     position: fixed;
@@ -14,7 +16,6 @@
 
 .navbar-item {
     float: left;
-
 
 }
 

@@ -1,15 +1,15 @@
 *{
     box-sizing: border-box;
 }
-
 #subnav {
+    display: block;
     list-style-type: none;
-    width:100%;
-    margin: 0;
+    width:auto;
+    /*position: fixed;*/
     overflow: hidden;
-    border: solid darkred;
+    /*border: solid green;*/
     /*justify-content: center;*/
-    padding-top: 40px;
+    padding-top: 20px;
     background-color: #d9a4e7;
     height: 15vh;
 }
@@ -19,11 +19,13 @@
     float: left;
     display: block;
     text-align: center;
-    block-size: fit-content ;
+    /*block-size: fit-content ;*/
 }
+
 .subnav-item {
     float: right;
 }
+
 .subnav-link {
     display: block;
     color: white;
@@ -42,28 +44,18 @@
     padding: 10px;
     font-size: 1.5em;
     border: 1px solid grey;
-    /*float: left;*/
-    /*width: 80%;*/
     background: #f1f1f1;
 }
 
-.subnav-item::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.dropbtn {
+.subnav-item .dropbtn {
     font-size: 1.5em;
     border: none;
     outline: none;
     color: white;
     padding: 10px 14px 16px;
     background-color: inherit;
-    /*font-family: inherit;*/
-    /*margin: 0;*/
+    margin: 0;
 }
-
 .subnav-item:hover .dropbtn {
     background-color: salmon;
 }

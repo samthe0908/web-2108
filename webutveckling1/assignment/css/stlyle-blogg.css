@@ -9,7 +9,8 @@ box-sizing: border-box;
     margin: 0px;
     border: 2px solid green;
 }
-aside, footer {
+
+main, aside, footer {
     display: block;
 }
 .wrapper{
@@ -19,7 +20,7 @@ aside, footer {
 section.om-blogg{
     float: left;
     width: 800px;
-    border-right:2px solid #d9a4e7 ;
+    border-right:2px solid #d9a4e7;
 }
 article{
     clear: both;
@@ -33,7 +34,7 @@ article p{
     text-align: left;
 }
 
-img{
+.om-blogg img{
     float: left;
     width: 250px;
     height: 220px;
@@ -41,11 +42,15 @@ img{
     margin: 20px;
     border: 1px solid seashell;
 }
+aside {
+     width: 230px;
+     float: left;
+     padding: 0px 0px 0px 20px;
+ }
 
 .wrapper footer{
     float: bottom;
     width: 100%;
     position: fixed;
-
 }
 

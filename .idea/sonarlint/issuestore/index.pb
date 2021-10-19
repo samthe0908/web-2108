@@ -51,3 +51,21 @@ T
 $webutveckling1/assignment/blogg.html,7\6\761341a521c4b9905291a3f0441d6c97fd035aa7
 a
 1programmering1/lektioner/2021-09-27/javascript.js,e\6\e6ae79988fae40c21cff52ff40caffc4b401ea02
+X
+(webutveckling1/assignment/css/footer.css,8\c\8c5a1246cd876e6ea3973551766b7e3373518b26
+Z
+*programmering1/exercises/christmas tree.js,d\5\d55e34647a50ccb65f2f3c8f82018f8536c6e727
+`
+0programmering1/exercises/2021-10-12/js/random.js,3\1\31a2dc76d7918ac269c12041bff879530da5e9f8
+]
+-programmering1/exercises/2021-10-11/test.html,7\9\79ef30f63b472ce629bbd9e830484361cfa84283
+a
+1programmering1/exercises/2021-10-11/exempel1.html,7\3\73a928e1f9087b3574ad30e63e3efdad8d1b4ecd
+h
+8programmering1/exercises/2021-10-12/random statiskt.html,e\9\e9afc01ff659b9b486b9a68fd06a4c6f809b535f
+a
+1programmering1/exercises/2021-10-11/exemple2.html,3\e\3e2221d3147de8496acd0d3d884c531cb77e9f40
+a
+1programmering1/exercises/2021-10-11/css/style.css,2\1\21a20b4a90d03bf3039b442c2a74eab13f65f6b7
+g
+7programmering1/exercises/2021-10-18/centrerad+grid.html,5\e\5e85d5f19ffdec1235f1109c65092aa4becd4a80

@@ -20,11 +20,60 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border: 1px solid yellow;
+    position: relative;
 }
 .checkOut-item{
     background-color: #f1f1f1;
     alignment: left;
+    cursor: pointer;
 }
+.checkOut-item:hover, .checkOut-item:focus {
+    /*background-color: #2980B9;*/
+    background-color: orange;
+}
+.checkOut-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.show {
+    display: block;
+}
+
+/* Grid test börjar här */
+.area-item1 {
+    grid-area: side;
+}
+
+.area-item2 {
+    grid-area: top;
+}
+
+.area-item3 {
+    grid-area: bottom;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-areas:
+            'top    top    side'
+            'bottom bottom side';
+    grid-gap: 0.5em;
+    background-color: #2196F3;
+    padding: 0.5em;
+}
+
+.grid-item1 {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+/*test slutar här*/
 nav {
     clear: both;
     height: 50px;
@@ -49,7 +98,7 @@ nav li {
 .main-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 .album {
     display: grid;

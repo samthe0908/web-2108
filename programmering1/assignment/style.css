@@ -4,29 +4,31 @@
 body{
     margin: auto ;
     max-width: 1280px;
-    background-color: #d9a4e7;
+    background-color: bisque;
 }
 .header-container{
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr;
-    background-color: #777777;
+    background-color: #f9f9f9;
     max-height: 100px;
 }
 .header-item{
-    /*background-color: red;*/
+    background-color: #f1f1f1;
     /*alignment: auto;*/
 }
 .checkOut-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
+    border: 1px solid yellow;
 }
 .checkOut-item{
+    background-color: #f1f1f1;
     alignment: left;
 }
 nav {
     clear: both;
     height: 50px;
-    background-color: #04AA6D;
+    background-color: wheat ;
 }
 nav ul{
     margin: 0;
@@ -43,4 +45,26 @@ nav li {
 
     /*background-color: yellow;*/
     /*}*/
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: yellow;
+}
+.album {
+    display: grid;
+    grid-template-rows: 1fr;
+}
+p{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 20px;
+
+}
+button{
+    width: 100px;
+    height: 50px;
+    border: 1px solid darkblue;
+    margin-bottom: 20px;
+    margin-left: 100px;
 }

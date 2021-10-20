@@ -5,6 +5,7 @@ body{
     max-width: 1280px;
     background-color: #d9a4e7;
 }
-.main-container{
+.header-container{
     background-color: #777777;
+    max-height: 200px;
 }

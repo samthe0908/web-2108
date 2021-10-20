@@ -25,8 +25,6 @@ X
 -webutveckling1/assignment/css/style-index.css,a\f\afdc8d99c570ac346a370c3207948ceaedc3926b
 T
 $webutveckling1/assignment/index.html,b\f\bfe3f46e61da2caf9fc83a273eb4fb3fffeda80d
-T
-$webutveckling1/assignment/about.html,c\a\ca2eef1db12f97e922a5ad3f6fe47f26540be0da
 V
 &webutveckling1/assignment/courses.html,c\6\c68d296c4626627a2161a2d24f5b17141ef79f53
 T

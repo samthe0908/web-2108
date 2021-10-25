@@ -8,24 +8,48 @@ body{
 }
 .header-container{
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr  1fr 1fr;
     background-color: #f9f9f9;
     max-height: 100px;
 }
 .header-item{
-    background-color: #f1f1f1;
+    background-color: yellowgreen;
+    /*margin: 50px;*/
     /*alignment: auto;*/
+}
+.searchLog-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    /*border: 1px solid green;*/
+    position: relative;
+    max-height: 80px;
+    margin-top: 30px
+
+}
+.searchLog-item{
+    /*background-color: goldenrod;*/
+    alignment: left;
+    /*border: 3px darkblue solid;*/
+    margin: 10px;
 }
 .checkOut-container{
     display: grid;
     grid-template-columns: 1fr 1fr ;
     border: 1px solid yellow;
     position: relative;
+    max-height: 80px;
+    margin-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+;
 }
 .checkOut-item{
-    background-color: #f1f1f1;
+    background-color: red;
     alignment: left;
     cursor: pointer;
+    border: 3px darkblue solid;
+    margin: 10px;
+
 }
 .checkOut-item:hover, .checkOut-item:focus {
     /*background-color: #2980B9;*/

@@ -3,49 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>music for more</title>
+    <title>Music for more</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <header>
     <div class="header-container">
-        <img class="header-item" src="img/logo.PNG"
+        <img class="header-item"  src="img/logo.PNG"
              alt="logo" width="400" height="100">
-        <img class="header-item" src="img/search-alt-regular-24.png"
-             alt="search" width="50" height="50">
-        <img class="header-item" src="img/user-regular-24.png"
-             alt="search" width="50" height="50">
-
-        <div class="checkOut-container">
+        <div class="searchLog-container">
+            <img class="searchLog-item" src="img/search-alt-regular-24.png"
+             alt="search" width="40" height="40">
+            <img class="searchLog-item" src="img/user-regular-24.png"
+             alt="search" width="40" height="40">
+        </div>
+        <div class="checkOut-container" >
             <img class="checkOut-item" src="img/cart-regular-24.png"
                  alt="shopping-cart" width="50" height="50"
-                 onclick="checkOutDropdown()">
+                 onclick="openMenu()">
             <button class="checkOut-item"
-            onclick="checkOutDropdown()">TILL KASSAN </button>
-<!--härifrån är det test från lektionen-->
-            <div id="checkOut" class="checkOut-content">
-                <section class='grid-container3'>
-                    <article class='grid-item1 area-item1'>
-                        side
-                    </article>
-                    <article class='grid-item1 area-item2'>
-                        top
-                    </article>
-                    <article class='grid-item1 area-item3'>
-                        bottom
-                    </article>
+                    onclick="openMenu()">TILL KASSAN
+            </button>
+            <div id="checkOut" class="buy-content">
+                <p>Din shoppingbag</p>
+                <hr />
+                <section >
+                    <article id="addedBoughtAlbums" ></article>
+                    <article id="totalAddedPrice"></article>
+                    <article id="totalAddedItem"></article>
+                    <article id="shippingCost"></article>
+                    <section>
+                        <button onclick="payment()">BETALA</button>
+                        <button onclick="closeMenu()">STÄNG</button>
+                    </section>
                 </section>
-
-                <button onclick='closeMenu()'>
-                    Close Dropdown
-                </button>
             </div>
-<!--            här slutar test-->
-       </div>
+        </div>
     </div>
 </header>
-
 <nav>
     <ul>
         <li>Album</li>
@@ -54,87 +49,20 @@
         <li>Deals just nu</li>
         <li>Outlet</li>
         <li>Konsert</li>
-        <li>Kundservie</li>
+        <li>Kundservice</li>
     </ul>
 </nav>
 
 <main>
-<div class="main-container">
-
-    <article class="album">
-    <img class="main-item" src="img/abba%20voyage2021.jpg"
-         alt="abba" width="300" height="300">
-        <p>ABBA </p>
-        <p>VOYAGE 2021 </p>
-        <p>159 Kr</p>
-        <button id="abba" onclick="buyAlbum()" >KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/beethoven.jpg"
-             alt="beethoven" width="300" height="300">
-        <p>BEETHOVEN </p>
-        <p>2019, 2 CD</p>
-        <p>579 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/jul.jpg"
-             alt="jul" width="300" height="300">
-        <p>NU ÄR DET JUL IGEN</p>
-        <p> 2019, 2 CD </p>
-        <p> 59 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/lampljus1.jpg"
-             alt="håkan" width="300" height="300">
-        <p>HÅKAN HELLSTRÖM</p>
-        <p>RAMPLJUS 2020 </p>
-        <p>99 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/queen.jpg"
-             alt="queen" width="300" height="300">
-        <p>QUEEN </p>
-        <p>PLATINUM COLLECTION 2011, 3 CD  </p>
-        <p>249 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/SUXUKI1+2.jpg"
-             alt="suzuki" width="300" height="300">
-        <p>SUZUKI PIANO</p>
-        <p>LLOYD-WATTS CD1&2 </p>
-        <p>189 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/såmycket.jpg"
-             alt="såmycket" width="300" height="300">
-        <p>SÅ MYCKET BÄTTRE</p>
-        <p>SÄSONG 11, 2020, 3 CD  </p>
-        <p>159 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-    <article class="album">
-        <img class="main-item" src="img/the%20beatles.jpg"
-             alt="beatle" width="300" height="300">
-        <p>THE BEATLES </p>
-        <p>GREATEST HITS 2011 </p>
-        <p>159 Kr</p>
-        <button>KÖP</button>
-    </article>
-
-</div>
+    <section class='main-container' >
+        <section id="allAlbum"></section>
+    </section>
 </main>
-<script src="script.js"></script>
+
+<script src="js/albums.js"></script>
+<script src="js/downloadAlbum.js"></script>
+<script src="js/script.js"></script>
+<script src="js/checkout.js"></script>
+
 </body>
 </html>

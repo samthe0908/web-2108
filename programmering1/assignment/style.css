@@ -9,7 +9,7 @@ body{
 .header-container{
     display: grid;
     grid-template-columns: 3fr  1fr 1fr;
-    background-color: #f9f9f9;
+    background-color:lightgrey;
     max-height: 100px;
 }
 .header-item{
@@ -23,81 +23,54 @@ body{
     /*border: 1px solid green;*/
     position: relative;
     max-height: 80px;
-    margin-top: 30px
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
 
 }
 .searchLog-item{
     /*background-color: goldenrod;*/
     alignment: left;
     /*border: 3px darkblue solid;*/
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 50px;
 }
 .checkOut-container{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    border: 1px solid yellow;
     position: relative;
-    max-height: 80px;
-    margin-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
-;
+    display: inline-block;
+
 }
 .checkOut-item{
-    background-color: red;
+    /*background-color: red;*/
     alignment: left;
     cursor: pointer;
-    border: 3px darkblue solid;
+    /*color: white;*/
+    padding: 0.5em;
+    font-size: 1em;
+    border: none;
     margin: 10px;
-
 }
 .checkOut-item:hover, .checkOut-item:focus {
     /*background-color: #2980B9;*/
-    background-color: orange;
+    background-color:sandybrown ;
 }
-.checkOut-content{
+.buy-content{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
+    background-color: #cccccc;
+    min-width: 300px;
     overflow: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 1;
+    /*border-radius: 15px;*/
+    right: 0;
 }
 .show {
     display: block;
 }
 
-/* Grid test börjar här */
-.area-item1 {
-    grid-area: side;
-}
 
-.area-item2 {
-    grid-area: top;
-}
-
-.area-item3 {
-    grid-area: bottom;
-}
-
-.grid-container3 {
-    display: grid;
-    grid-template-areas:
-            'top    top    side'
-            'bottom bottom side';
-    grid-gap: 0.5em;
-    background-color: #2196F3;
-    padding: 0.5em;
-}
-
-.grid-item1 {
-    background-color: aquamarine;
-    border: 1px solid black;
-    padding: 1em;
-    text-align: center;
-}
-/*test slutar här*/
 nav {
     clear: both;
     height: 50px;
@@ -106,27 +79,34 @@ nav {
 nav ul{
     margin: 0;
     padding: 5px  5px 50px;
-    /*text-align: center;*/
-    /*overflow: hidden;*/
 
 }
 nav li {
     display: block;
     float: left;
     padding: 10px;
-    /*text-align: center;*/
 
-    /*background-color: yellow;*/
-    /*}*/
 }
 .main-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /*background-color: yellow;*/
 }
-.album {
+#allAlbum{
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.album-content {
+    border: 1px solid sandybrown;
+    max-width: 300px;
+    /*max-height: 300px;*/
+    padding: 1em;
+    margin: 1em;
+    /*background-color: #d9a4e7;*/
+    text-align: center;
 }
 p{
     text-align: center;
@@ -134,10 +114,16 @@ p{
     margin-bottom: 20px;
 
 }
-button{
+button.checkOut-item{
     width: 100px;
     height: 50px;
     border: 1px solid darkblue;
     margin-bottom: 20px;
-    margin-left: 100px;
+    alignment: center;
+    /*margin-left: 100px;*/
+}
+
+.albumImage {
+   width: 150px;
+   height: 150px;
 }

@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --backgroud-color:#CC9DFA;
+    --bar-color:#6217AD;
+    --text-color:#AD1724;
+}
+
+body{
+
+}

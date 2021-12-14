@@ -3,20 +3,14 @@ O
 webutveckling1/table/index.html,e\d\ed4e28d48a46a6d289d97a865c226a639f529084
 N
 webutveckling1/table/style.css,9\4\9497f87aeb2f76d241cf02ccaaf4380bacf2521b
-9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 V
 &webutveckling1/assignment/css/test.css,9\b\9b824b0d1c673c160f38c2eff35558ee673ee668
 S
 #webutveckling1/assignment/test.html,9\b\9b528f16a8f2d0bbaca945f4d9891114942ef906
-R
-"webutveckling1/2021-09-21/styl.css,8\8\888481162680e1825f0e35df32ba8830a489e42b
 _
 /webutveckling1/assignment/css/style-courses.css,d\7\d73dcc5048a59ea2f5499ff5b251dca89d1cd8a7
-V
-&webutveckling1/2021-09-21/ovning1.html,c\5\c5f66d41c97febf614ff762517ddc9a87f21f717
 ]
 -webutveckling1/assignment/css/style-other.css,c\5\c573e0c777007ef9937a2f38d29e5660cc7c61e0
 X
@@ -67,3 +61,13 @@ a
 1programmering1/exercises/2021-10-11/css/style.css,2\1\21a20b4a90d03bf3039b442c2a74eab13f65f6b7
 g
 7programmering1/exercises/2021-10-18/centrerad+grid.html,5\e\5e85d5f19ffdec1235f1109c65092aa4becd4a80
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+V
+&webutveckling1/2021-09-21/ovning1.html,c\5\c5f66d41c97febf614ff762517ddc9a87f21f717
+R
+"webutveckling1/2021-09-21/styl.css,8\8\888481162680e1825f0e35df32ba8830a489e42b
+X
+(gränsnittdesign/exercise/practice1.html,f\9\f9fe1f550f0bc932fa3fa0c7a04c49867804a1e1
+W
+'gränsnittdesign/exercise/practice1.css,e\2\e20d13c5a22bc8bb8ee552181e7aa7f214e52c4e

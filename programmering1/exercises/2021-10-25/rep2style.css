@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1em;
+    padding: 0;
+    background-color: #dddddd;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    border: 1px solid black;
+    max-width: 200px;
+    padding: 1em;
+    background-color: #04AA6D;
+}
+
+.card-cart {
+    border: 1px solid black;
+    max-width: 200px;
+    padding: 1em;
+    background-color: #03a9f4;
+}

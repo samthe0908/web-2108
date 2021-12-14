@@ -8,5 +8,10 @@
 }
 
 body{
-
+background-color: var(--backgroud-color);
+}
+.container{
+    background-color:var(--bar-color);
+    display: grid;
+    grid-template-columns: ;
 }

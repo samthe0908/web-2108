@@ -5,6 +5,7 @@
     --fontsize-p: 1.2 rem;
     --frontsize-nav: 1.6 rem;
     --font: 3 rem;
+    --show-color:#f4f5f9;
 }
 * {
     box-sizing: border-box;
@@ -34,12 +35,12 @@ nav ul li a{
     text-decoration: none;
 }
 section{
-    background-color: #8f6f97;
+    background-color: var(--show-color);
     flex: var(--show-flex);
 }
 .home{
     padding: 100px;
-    background-color: #f4f5f9;
+    background-color: var(--show-color);
     flex: var(--show-flex);
     display: flex;
     justify-content: center;

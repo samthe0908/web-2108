@@ -1,0 +1,39 @@
+.adress{
+    display: flex;
+    flex-direction: column;
+    /*background-color: #8f6f97;*/
+    padding: 20px;
+}
+.adress h4{
+    font-size: var(--fontsize-h4);
+}
+.mailTel{
+    display: flex;
+    flex-direction: column;
+    /*background-color: darksalmon;*/
+    padding: 20px;
+}
+.mailTel a{
+    color:var(--show-font-color);
+}
+.open{
+    display: flex;
+    flex-direction: column;
+    /*background-color: seagreen;*/
+    padding: 20px;
+}
+.ig-fb{
+    display: flex;
+    flex-direction:row;
+    /*padding-left: 500px;*/
+
+}
+.ig-fb i{
+    padding-right: 30px;
+    font-size: 50px;
+    color: var(--show-font-color);
+    /*text-align: center;*/
+}
+.ig-fb i:hover{
+    color:#333;
+}

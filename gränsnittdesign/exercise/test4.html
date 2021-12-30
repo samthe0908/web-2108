@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS: Using media queries and grid CSS to reflow columns</title>
+    <style>
+
+        /* Reflow Styling */
+        header[role="banner"]       { grid-area: header; }
+        main[role="main"]           { grid-area: main; }
+        aside[role="complementary"] { grid-area: aside; }
+        footer[role="contentinfo"]  { grid-area: footer; }
+
+        .grid,
+        .subgrid {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            background: #61dafb;
+        }
+
+        .grid {
+            grid-template-areas:
+          'header'
+          'main'
+          'aside'
+          'footer';
+            width: 100%;
+        }
+
+        .subgrid {
+            width: calc(100% + 2rem);
+            margin: 0 -1rem;
+        }
+
+        .grid-item,
+        .subgrid-item {
+            padding: 1rem;
+        }
+
+        @media all and (min-width: 576px) {
+            .subgrid {
+                grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+                margin-bottom: 1rem;
+            }
+            .subgrid-item {
+                padding-bottom: 0.25rem;
+            }
+        }
+
+        @media all and (min-width: 992px) {
+            .grid {
+                grid-template-areas:
+              'header header header'
+              'main main aside'
+              'footer footer footer';
+                grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+            }
+        }
+
+    </style>
+
+</head>
+
+<body class="grid">
+
+<header role="banner" class="grid-item">
+    header
+</header>
+
+<main role="main" class="grid-item">
+    main1
+    main2
+    <div class="subgrid">
+        <div class="subgrid-item">
+            sub1
+        </div>
+        <div class="subgrid-item">
+            sub2
+        </div>
+    </div>
+</main>
+
+<aside role="complementary" class="grid-item">
+    aside
+</aside>
+
+<footer role="contentinfo" class="grid-item">
+    footer
+</footer>
+
+</body>
+</html>

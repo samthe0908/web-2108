@@ -1,0 +1,22 @@
+.showInfo{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+    color: var(--show-color-nav-head-foot);
+
+}
+.showInfo::before {
+    content: "";
+    background-image: url("img/backgroundMaten.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.4;
+}

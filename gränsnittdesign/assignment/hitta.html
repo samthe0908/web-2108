@@ -3,31 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HITTA HIT</title>
-    <link rel="stylesheet" href="style/cover.css">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="style/header-footer.css">
-    <link rel="stylesheet" href="style/navbar.css">
-    <link rel="stylesheet" href="style/hitta.css">
+    <link rel="stylesheet" href="header-footer.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hitta.css">
+
 
 </head>
 
 <body>
 <div class="grid-container">
-    <img src="./img/logo.png" alt="logo" class="logo"/>
+    <img src="./img/logo.png" alt="logo" id="logo"/>
     <header>
-        <h4 >Etablerat sedan 2000</h4>
-        <h4>"Thailand är närmare än du tror"</h4>
+        <h4 id="item1">Etablerat sedan 2000</h4>
+        <h4 id="item2">"Thailand är närmare än du tror"</h4>
     </header>
+</div>
+<div class="container">
     <nav>
-        <ul>
-            <li><a href="index.html">HEM</a></li>
-            <li><a href="aktuell.html">AKTUELLT</a></li>
-            <li><a href="lunch.html">LUNCH</a></li>
-            <li><a href="meny.html">MENY</a></li>
-            <li><a href="kontakt.html">KONTAKT</a></li>
-            <li><a href="hitta.html">HITTA HIT</a></li>
-        </ul>
+        <a class="nav-link" href="index.html">
+            <div class='nav-item active'>HOME</div>
+        </a>
+        <a class="nav-link" href="#">
+            <div class='nav-item active'>AKTUELLT</div>
+        </a>
+        <a class="nav-link" href="#">
+            <div class='nav-item active'>LUNCH</div>
+        </a>
+        <a class="nav-link" href="#">
+            <div class='nav-item active'>MENY</div>
+        </a>
+        <a class="nav-link" href="#">
+            <div class='nav-item active'>KONTAKT</div>
+        </a>
+        <a class="nav-link" href="#">
+            <div class='nav-item active'>HITTA HIT</div>
+        </a>
+
     </nav>
     <main>
         <iframe
@@ -35,15 +49,15 @@
                 allowfullscreen="" loading="lazy">
 
         </iframe>
-       
     </main>
+</div>
     <footer >
-        <h4>031-698275</h4>
+        <h4 id="tel">031-698275</h4>
         <div class="social">
-            <a href="https://www.instagram.com/salathaigoteborg/" target="_blank" rel="noopener noreferer"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/salathaigoteborg" target="_blank" rel="noopener noreferer"><i class="fab fa-facebook"></i></a>
+            <a id="ig" href="https://www.instagram.com/salathaigoteborg/" target="_blank" rel="noopener noreferer"><i class="fab fa-instagram"></i></a>
+            <a id="fb" href="https://www.facebook.com/salathaigoteborg" target="_blank" rel="noopener noreferer"><i class="fab fa-facebook"></i></a>
         </div>
     </footer>
-</div>
+
 </body>
 </html>

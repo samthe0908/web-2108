@@ -1,0 +1,23 @@
+/*mobile*/
+iframe{
+    /*padding-left: 100px;*/
+    width: 100vw;
+    height: 100vh;
+}
+/*tablet*/
+@media only screen and (min-width: 768px) {
+    iframe{
+        width: 80vw;
+        height: 80vh;
+        align-items: center;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1200px) {
+    iframe{
+        width: 80vw;
+        height: 80vh;
+        alignment: center;
+    }
+}

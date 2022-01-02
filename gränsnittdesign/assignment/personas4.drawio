@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-01-02T20:06:48.191Z" agent="5.0 (Windows)" version="16.1.2" etag="HUBxmSUefZk__lTwi_fF" type="github"><diagram id="OCPiecUB_f1NpVlgfRXn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-02T20:16:20.444Z" agent="5.0 (Windows)" etag="K6ZvN94uznZqt_Bfx9BW" version="16.1.2" type="github">
+  <diagram id="OCPiecUB_f1NpVlgfRXn" name="Page-1">
+    <mxGraphModel dx="1108" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iWYdugAdyPxZcnFwia8F-1" value="Personas 1" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;dashed=0;strokeWidth=1;fillColor=#E6E6E6;fontFamily=Verdana;fontSize=70;strokeColor=none;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="25" y="65" width="1360" height="925" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-2" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=30;rounded=0;strokeColor=none;strokeWidth=1;fillColor=#7FB61A;fontFamily=Tahoma;fontSize=10;fontColor=#FFFFFF;gradientColor=#1B622A;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="100" y="170" width="1210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-3" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=30;rounded=0;strokeColor=none;strokeWidth=1;fillColor=#5398DB;fontFamily=Tahoma;fontSize=10;fontColor=#FFFFFF;gradientColor=#1247B9;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="100" y="430" width="1210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-4" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=0;notch=30;rounded=0;strokeColor=none;strokeWidth=1;fillColor=#8D029D;fontFamily=Tahoma;fontSize=10;fontColor=#FFFFFF;gradientColor=#65009E;gradientDirection=east;" vertex="1" parent="1">
+          <mxGeometry x="90" y="680" width="1210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-5" value="" style="line;strokeWidth=4;direction=south;html=1;rounded=0;shadow=0;dashed=0;fillColor=none;gradientColor=#AD0002;fontFamily=Helvetica;fontSize=150;fontColor=#FFFFFF;align=right;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="180" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-6" value="" style="line;strokeWidth=4;direction=south;html=1;rounded=0;shadow=0;dashed=0;fillColor=none;gradientColor=#AD0002;fontFamily=Helvetica;fontSize=150;fontColor=#FFFFFF;align=right;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="450" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-7" value="" style="line;strokeWidth=4;direction=south;html=1;rounded=0;shadow=0;dashed=0;fillColor=none;gradientColor=#AD0002;fontFamily=Helvetica;fontSize=150;fontColor=#FFFFFF;align=right;strokeColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="350" y="680" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-8" value="&lt;h1&gt;Gabriel&amp;nbsp; Holmqvist&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Ålder: 17 år&lt;/div&gt;&lt;div&gt;Bor: villa i tångudden&lt;br&gt;&lt;/div&gt;&lt;div&gt;Familj: pappa, mamma, och syster&lt;br&gt;&lt;/div&gt;&lt;div&gt;Yrke: Student&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="190" width="670" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-9" value="&lt;h1&gt;Datorvana&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- God datorvarna, används varje dag. Använd mest mobil för söka info. Instagram och snapchat&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;- Söker meny på och öppettid på restaurangens webbplats. &lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;-Önskar onlinebeställning och bordbokning på webplats&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="410" y="450" width="740" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-10" value="&lt;h1&gt;Matvanor&lt;/h1&gt;&lt;p&gt;Äter hemma, mamma lagar middag.&lt;br&gt;&lt;/p&gt;&lt;p&gt;Beställa och hämta mat ibland när det inte finns mat hemma&lt;/p&gt;&lt;p&gt;Äter lunch ibland på restaurangen när skolmat inte är lockande, umgås med vännerna på restaurangen och middag en gång i månad , ofta i stan&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;dashed=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="414" y="700" width="720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-11" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#FFFFFF;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.office.users.users;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;align=left;" vertex="1" parent="1">
+          <mxGeometry x="179.99999999999955" y="200" width="92" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-12" value="" style="shape=mxgraph.signs.food.restaurant_2;html=1;pointerEvents=1;fillColor=#FFFFFF;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="189" y="718" width="52" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="iWYdugAdyPxZcnFwia8F-13" value="" style="shape=mxgraph.signs.tech.computer;html=1;pointerEvents=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;sketch=0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="460" width="98" height="98" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

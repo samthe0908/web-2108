@@ -17,7 +17,7 @@
     men kan vid senare utveckling läggs till.  
 
     Websida är indelade i fyra frame
-    - Header: innehåller logo och allmänt info, samt avvikande info t.ex Helgdag hälsningar.   
+    * Header: innehåller logo och allmänt info, samt avvikande info t.ex Helgdag hälsningar.   
     Jag hade tänkt lägga effekt på avvinkande info t.ex rullande, blikande m.m.  
     men anser att jag inte hade det kunskap ännu, jag har sökt info om det   
     men tror inte att jag skulle hinna lämna in arbetet itid. så jag tog inte med den funktion.

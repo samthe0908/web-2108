@@ -17,10 +17,19 @@
     men kan vid senare utveckling läggs till.  
 
     Websida är indelade i fyra frame
-    * Header: innehåller logo och allmänt info, samt avvikande info t.ex Helgdag hälsningar.   
+    - Header: innehåller logo och allmänt info, samt avvikande info t.ex Helgdag hälsningar.   
     Jag hade tänkt lägga effekt på avvinkande info t.ex rullande, blikande m.m.  
     men anser att jag inte hade det kunskap ännu, jag har sökt info om det   
-    men tror inte att jag skulle hinna lämna in arbetet itid. så jag tog inte med den funktion.
+    men tror inte att jag skulle hinna lämna in arbetet itid. så jag tog inte med den funktion.  
+    - Navbar: innehåller lista om behövs Hem, Meny, Lunch, kontaktinfo-öppettid,aktuellta info och extra lista Hitta Hit.  
+    Eftersom restaruang har fått veta från kunderna att det var svårt att hitta till stället  
+    valde jag att lägga in en extra sida med google map till restarungen. Det kan underlätta för nya kundeder
+    -Main: innehåller allmänt info som kopplat till list
+    -footer innehåller telefonnummer och socialamedia kanal. Många kunder välja att ringa och beställa för avhämtning,   
+    så är det viktig att telefonnummer skall synas överallt. Ca 30% av målgrupper är unga/tonåringar/studerande,   
+    de använder av socialamedia att hitta infomation, så därför finns det länk för Instagram och facebook med i alla sidor.
+    
+
     
     
 

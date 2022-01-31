@@ -1,0 +1,11 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  background: #FFA372;
+  color: black;
+}
+.Something{
+  background: #AD1724;
+}

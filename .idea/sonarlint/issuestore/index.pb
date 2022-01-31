@@ -3,8 +3,6 @@ O
 webutveckling1/table/index.html,e\d\ed4e28d48a46a6d289d97a865c226a639f529084
 N
 webutveckling1/table/style.css,9\4\9497f87aeb2f76d241cf02ccaaf4380bacf2521b
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 V
 &webutveckling1/assignment/css/test.css,9\b\9b824b0d1c673c160f38c2eff35558ee673ee668
 S
@@ -129,3 +127,17 @@ Y
 )gränsnittdesign/exercise/test5/album.css,e\c\ec62d8d5c2882acdd7c06cab37eba5c2a7d78214
 Y
 )gränsnittdesign/exercise/test5/style.css,1\7\17c26e4c5790f9bd0384632234b4292ceeb77180
+[
++gränsnittdesign/assignment/prototyp.drawio,c\f\cf6f5adf07593bad9bd282e42a298a63004425a5
+U
+%gränsnittdesign/assignment/hitta.css,3\2\32e24adbf5812f7501fc349270aaf010e1bc19f6
+U
+%gränsnittdesign/assignment/style.css,0\5\05e50ec1b38b36d811e5ddee4dc9c5d816b90e81
+V
+&gränsnittdesign/assignment/navbar.css,e\1\e1bdc0d6fb40be22becf3f60151bc5e833836f72
+U
+%gränsnittdesign/assignment/readme.md,2\1\2165a19c40b6f251015ffa151ad84e03119c7ed3
+V
+&gränsnittdesign/assignment/index.html,8\2\8235265e501216d9cae4ae3fc4b145df722af41d
+T
+$gränsnittdesign/assignment/home.css,a\0\a068eca839bcfce452773967cf67037d9196ea1c

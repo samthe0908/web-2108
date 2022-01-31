@@ -128,5 +128,9 @@ footer{
         "tel tel"
         "ig fb";
     }
+    .social{
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 

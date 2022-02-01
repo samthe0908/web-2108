@@ -5,14 +5,18 @@ import logo from '../img/mycat.jpg'
 export default function Navbar() {
     return (
             <nav className='Navbar'>
-                <img className='Logo' src={logo} alt="logo"/>
-                <ul className='Nav-item'>
-                    <li className='Nav-list'>HOME</li>
-                    <li className='Nav-list'>FODER</li>
-                    <li className='Nav-list'>ÖVRIG</li>
-                    <li className='Nav-list'>KONTAKT</li>
+                <div className='ShopName'>
+                    <h1> ALL FOR CATS </h1>
+                </div>
 
-            </ul>
+                <ul className='Nav-item'>
+                    <li className='Nav-list '>HOME</li>
+                    <li className='Nav-list ' >FODER</li>
+                    <li className='Nav-list '>ÖVRIG</li>
+                    <li className='Nav-list '>KONTAKT</li>
+                </ul>
+                <img className='Logo' src={logo} alt="logo"/>
+
          </nav>
     )
 }

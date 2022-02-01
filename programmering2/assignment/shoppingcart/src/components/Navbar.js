@@ -7,12 +7,12 @@ export default function Navbar() {
             <nav className='Navbar'>
                 <img className='Logo' src={logo} alt="logo"/>
                 <ul className='Nav-item'>
-                <li className='Nav-list'>HOME</li>
-                <li className='Nav-list'>FODER</li>
-                <li className='Nav-list'>ÖVRIG</li>
-                <li className='Nav-list'>KONTAKT</li>
+                    <li className='Nav-list'>HOME</li>
+                    <li className='Nav-list'>FODER</li>
+                    <li className='Nav-list'>ÖVRIG</li>
+                    <li className='Nav-list'>KONTAKT</li>
 
             </ul>
-        </nav>
+         </nav>
     )
 }

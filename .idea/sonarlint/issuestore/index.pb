@@ -11,12 +11,8 @@ _
 /webutveckling1/assignment/css/style-courses.css,d\7\d73dcc5048a59ea2f5499ff5b251dca89d1cd8a7
 ]
 -webutveckling1/assignment/css/style-other.css,c\5\c573e0c777007ef9937a2f38d29e5660cc7c61e0
-X
-(webutveckling1/assignment/css/navbar.css,c\8\c8aaa7cd6678a2574fad9a4afe87729e81b03293
 ]
 -webutveckling1/assignment/css/style-index.css,a\f\afdc8d99c570ac346a370c3207948ceaedc3926b
-T
-$webutveckling1/assignment/index.html,b\f\bfe3f46e61da2caf9fc83a273eb4fb3fffeda80d
 V
 &webutveckling1/assignment/courses.html,c\6\c68d296c4626627a2161a2d24f5b17141ef79f53
 T
@@ -87,8 +83,6 @@ Z
 *gränsnittdesign/exercise/test5/index.html,9\8\980495dfbefb14cbaf647ddb2f59489e3e009139
 Z
 *gränsnittdesign/exercise/test5/navbar.css,9\6\96a224df66dd6f7d18a7186ad1b6c0675d0c826f
-V
-&gränsnittdesign/assignment/hitta.html,2\5\25df928bd2cb2a745a1dc103ae7ac0e4ceaa2c96
 W
 'gränsnittdesign/assignment/kontakt.css,7\0\70efd4f223e13d8606e5c87b6189275b853fefb7
 X
@@ -133,11 +127,7 @@ U
 %gränsnittdesign/assignment/hitta.css,3\2\32e24adbf5812f7501fc349270aaf010e1bc19f6
 U
 %gränsnittdesign/assignment/style.css,0\5\05e50ec1b38b36d811e5ddee4dc9c5d816b90e81
-V
-&gränsnittdesign/assignment/navbar.css,e\1\e1bdc0d6fb40be22becf3f60151bc5e833836f72
 U
 %gränsnittdesign/assignment/readme.md,2\1\2165a19c40b6f251015ffa151ad84e03119c7ed3
 V
 &gränsnittdesign/assignment/index.html,8\2\8235265e501216d9cae4ae3fc4b145df722af41d
-T
-$gränsnittdesign/assignment/home.css,a\0\a068eca839bcfce452773967cf67037d9196ea1c

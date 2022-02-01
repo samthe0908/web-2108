@@ -5,31 +5,55 @@
     background-color: #333;
     height: 130px;
 }
-
-.Logo{
-    width: 100px;
-    height: 100px;
+.ShopName{
     margin: 20px;
-
+    background: #c0c5c1;
+    text-align: center;
+    padding: 20px;
+    color: darkred;
 }
 .Nav-item{
     list-style-type: none;
     margin: 20px;
     padding: 0;
     overflow: hidden;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 .Nav-list{
     display: block;
-    color: red;
+    color: #c0c5c1;
     text-align: center;
     margin: 20px;
     padding: 20px;
     text-decoration:none;
     float: left;
 }
+.Nav-list:hover{
+    color: red;
 
-.active {
-    background-color: #129a22;
+}
+/*.active {*/
+/*    background-color: #129a22;*/
+/*}*/
+
+.Logo{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    position: relative;
+    animation-name: run;
+    animation-duration: 10s ;
+    animation-delay: 2s;
+
+}
+
+
+@keyframes run {
+    0%   {left:0; top:0;}
+    25%  {left:300px; top:0;}
+    50%  {left:0; top:0;}
+    75%  {left:300px; top:0;}
+    100% {left:0; top:0;}
 }

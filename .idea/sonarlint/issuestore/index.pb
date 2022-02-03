@@ -85,8 +85,6 @@ Z
 *gränsnittdesign/exercise/test5/navbar.css,9\6\96a224df66dd6f7d18a7186ad1b6c0675d0c826f
 W
 'gränsnittdesign/assignment/kontakt.css,7\0\70efd4f223e13d8606e5c87b6189275b853fefb7
-X
-(gränsnittdesign/assignment/kontakt.html,0\e\0e5ad4a022492c91310889ae9c17d4aba517664c
 Z
 *gränsnittdesign/exercise/test5/footer.css,0\5\051a5fd0155788102c6e17321e6a37f15130c95e
 Z
@@ -129,5 +127,3 @@ U
 %gränsnittdesign/assignment/style.css,0\5\05e50ec1b38b36d811e5ddee4dc9c5d816b90e81
 U
 %gränsnittdesign/assignment/readme.md,2\1\2165a19c40b6f251015ffa151ad84e03119c7ed3
-V
-&gränsnittdesign/assignment/index.html,8\2\8235265e501216d9cae4ae3fc4b145df722af41d

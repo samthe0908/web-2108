@@ -1,10 +1,47 @@
-const product = {
-    productItems:[
-    {
-        id: '1',
-        name: 'Miamor Cat Snack 24X15g',
-        price: 65,
-        image:<img src={require('../img/foder_catsnack.jpg')}  alt='catsnack'/>
-    },
-    ]
+import React from "react";
+import '../utils/global/css/products.css'
+
+const Products = ({cartItems, productItems, setCartItems}) => {
+    console.log(cartItems);
+
+    const updateCart = (productItem) => {
+        const itemExist = cartItems.find(cartItem => cartItem.id == productItem.id);
+
+        if (itemExist) {
+            const copy = [...cartItems];
+            const itemToUpdate = copy.find(copyItem => copyItem.id == productItem.id);
+            itemToUpdate.quantity += 1;
+            setCartItems(copy);
+        }
+        else {
+            const newCartItem = {...productItem}
+            newCartItem.quantity = 1;
+
+            setCartItems([...cartItems, newCartItem])
+        }
+    };
+
+    return(
+        <div className='Products'>
+            {productItems.map((productItem)=>(
+                <div className='card' key={productItem.id}>
+                    <div>
+                        {productItem.image}
+                    </div>
+                    <div>
+                        <h3 className='ProductName'>{productItem.name}</h3>
+                    </div>
+                    <div className='ProductPrice'>
+                        ${productItem.price}
+                    </div>
+                    <button onClick={() => {updateCart(productItem)}}>Add</button>
+
+                </div>
+
+                ))}
+        </div>
+    )
+
 }
+
+export default Products;

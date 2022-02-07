@@ -24,17 +24,17 @@ const Products = ({cartItems, productItems, setCartItems}) => {
     return(
         <div className='Products'>
             {productItems.map((productItem)=>(
-                <div className='card' key={productItem.id}>
-                    <div>
+                <div className='Card' key={productItem.id}>
+                    <div className='ProductImage'>
                         {productItem.image}
                     </div>
                     <div>
                         <h3 className='ProductName'>{productItem.name}</h3>
                     </div>
                     <div className='ProductPrice'>
-                        ${productItem.price}
+                        {productItem.price} Kr
                     </div>
-                    <button onClick={() => {updateCart(productItem)}}>Add</button>
+                    <button onClick={() => {updateCart(productItem)}}>KÖP</button>
 
                 </div>
 

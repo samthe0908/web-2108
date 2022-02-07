@@ -1,17 +1,32 @@
 import './utils/global/css/App.css';
+import data from "./components/Data";
 import Navbar from "./components/Navbar";
-import {BrowserRouter as Router} from "react-router-dom";
+import Pages from "./components/Pages";
+//import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Products from "./components/Products";
+import React, {useState} from "react";
+import {
+    BrowserRouter as Router,
+    Route,
+    Link
+} from "react-router-dom";
+
 
 
 export default function App() {
-  return (
+    const {productItems} = data;
+    const [cartItems, setCartItems] = useState([]);
+
+    return (
       <div>
         <Router>
-        <Navbar/>
+            <Navbar cartItems={cartItems} setCartItems={setCartItems}/>
+            {/*<Routes>*/}
+            {/*    <Route path="/" element={<Products productItems={productItems}/>} />*/}
+            {/*</Routes>*/}
+            <Pages productItems={productItems} cartItems={cartItems} setCartItems={setCartItems}/>
         </Router>
       </div>
-
-
 
   )
 }

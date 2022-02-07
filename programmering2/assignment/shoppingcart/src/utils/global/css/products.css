@@ -1,0 +1,30 @@
+.Products{
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FFA372;
+    border-radius: 5px;
+}
+.Card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px;
+    margin: 40px 20px;
+    background-color: white;
+}
+.Image{
+    width: 200px;
+    height: 200px;
+}
+.ProductImage{
+    /*width: 100%;*/
+    /*max-width: 300px;*/
+    /*min-height: 200px;*/
+    display: block;
+    object-fit: cover;
+}

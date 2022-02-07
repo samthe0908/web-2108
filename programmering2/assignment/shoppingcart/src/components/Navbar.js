@@ -1,9 +1,11 @@
 
 import '../utils/global/css/Navbar.css'
 import {Link} from "react-router-dom";
+import Cart from './Cart';
 import logo from '../img/mycat.jpg'
 import CartPic from '../img/shopping-cart-2351.png'
-export default function Navbar() {
+
+export default function Navbar({cartItems, setCartItems}) {
     return (
             <nav className='Navbar'>
                 <div>
@@ -13,16 +15,13 @@ export default function Navbar() {
                 <ul>
                     <li>
                         <Link to='/'>HOME</Link>
-                        </li>
+                    </li>
                     <li>
-                        <Link to='/'>FODER</Link>
-                        </li>
+                        <Link to='/products'>PRODUKTER</Link>
+                    </li>
                     <li>
-                        <Link to='/'>ÖVRIG</Link>
-                        </li>
-                    <li>
-                        <Link to='/'>KONTAKT</Link>
-                        </li>
+                        <Link to='/contact'>KONTAKT</Link>
+                    </li>
                 </ul>
                 </div>
                 <div className='ShopName'>
@@ -30,8 +29,8 @@ export default function Navbar() {
                         <Link to='/'>
                             <img className='CartPic' src={CartPic} alt="cartPic"/>
                     </Link>
-
                 </div>
+                <Cart cartItems={cartItems} setCartItems={setCartItems} />
 
          </nav>
     )

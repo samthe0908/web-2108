@@ -3,13 +3,13 @@ const data = {
     productItems:[
     {
         id: '1',
-        name: 'Miamor Cat Snack 24X15g',
+        name: 'Miamor Cat Snack 24X15g  "Best Buy"' ,
         price: 65,
         image:<img className='Image' src={require('../img/foder_catsnack.jpg')}  alt='catsnack'/>
     },
         {
             id: '2',
-            name: 'Trixie Catnip-lekspray, 17 5ml',
+            name: 'Trixie Catnip-lekspray, 175ml',
             price: 55,
             image:<img className='Image' src={require('../img/doft_catnip.jpg')}  alt='catnip'/>
         },
@@ -33,7 +33,7 @@ const data = {
         },
         {
             id: '6',
-            name: 'Smilla kattbädd',
+            name: 'Smilla kattbädd "Prisvärd"' ,
             price: 70,
             image:<img className='Image' src={require('../img/korg_orange.jpg')}  alt='korgorange'/>
         },
@@ -45,13 +45,13 @@ const data = {
         },
         {
             id: '8',
-            name: 'Karlie Ascar kattskål',
+            name: 'Karlie Ascar kattskål "Best Buy"' ,
             price: 35,
             image:<img className='Image' src={require('../img/skol.jpg')}  alt='skål'/>
         },
         {
             id: '9',
-            name: 'Shira klösleksak katter',
+            name: 'Shira klösleksak katter "Rea nu"',
             price: 79,
             image:<img className='Image' src={require('../img/toy_zebra.jpg')}  alt='toy'/>
         },

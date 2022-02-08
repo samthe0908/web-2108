@@ -4,7 +4,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-color: #FFA372;
+    background-color: #333;
+    /*background-color: #FFA372;*/
     border-radius: 5px;
 }
 .Card{
@@ -15,16 +16,51 @@
     overflow: hidden;
     padding: 10px;
     margin: 40px 20px;
-    background-color: white;
+    background-color: #c0c5c1;
 }
 .Image{
     width: 200px;
     height: 200px;
+    margin-left: 40px;
+
 }
 .ProductImage{
-    /*width: 100%;*/
-    /*max-width: 300px;*/
-    /*min-height: 200px;*/
+    width: 100%;
+    max-width: 300px;
+    min-height: 200px;
     display: block;
     object-fit: cover;
+    /*background-color: #FFA372;*/
+
 }
+.ProductName{
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.ProductPrice{
+    margin: 10px 0;
+    padding-bottom: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.AddProduct{
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #c23220;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin: 15px auto;
+}
+.AddProduct:hover{
+    background-color: white;
+}
+.AddProduct:active{
+    transform: translateY(2px) ;
+}
+

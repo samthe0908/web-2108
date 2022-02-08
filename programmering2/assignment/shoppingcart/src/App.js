@@ -2,14 +2,9 @@ import './utils/global/css/App.css';
 import data from "./components/Data";
 import Navbar from "./components/Navbar";
 import Pages from "./components/Pages";
-//import {BrowserRouter as Router, Route} from 'react-router-dom'
-import Products from "./components/Products";
+import Products from "./components/view/Products";
 import React, {useState} from "react";
-import {
-    BrowserRouter as Router,
-    Route,
-    Link
-} from "react-router-dom";
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
 
 
 

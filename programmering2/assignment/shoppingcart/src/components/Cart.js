@@ -19,7 +19,8 @@ const Cart = ({cartItems, setCartItems}) => {
         setCartItems(newItems);
     }
 
-    return (<div style={{ color: 'red'}}>Cart
+    return (
+        <div style={{ color: 'red'}}>Cart
         {cartItems.map(cartItem =>
             <div>
                 name:{cartItem.name} price:{cartItem.price * cartItem.quantity} quantity:{cartItem.quantity}

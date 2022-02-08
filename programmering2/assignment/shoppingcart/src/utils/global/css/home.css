@@ -1,0 +1,12 @@
+.HomePage{
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: #c23220;
+    height: 60vh;
+    font-size: 1.17em;
+    font-weight: bold;
+}

@@ -33,6 +33,8 @@
     text-decoration: none;
     color: #c23220;
     padding: 0 15px;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 .Nav-list ul li a:hover{
     color: #c0c5c1;

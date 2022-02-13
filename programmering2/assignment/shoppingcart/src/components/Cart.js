@@ -31,6 +31,7 @@ const Cart = ({cartItems, setCartItems,}) => {
     return (
         <div className='Cart-container'>
             <div className='Cart-item-header'> Din varukorg </div>
+            <div className='FreeShipping'> Fri frakt över 259 kr </div>
             <div className='Clear-cart'>
                 {cartItems.length >=1&&(
                     <button className='Clear-cart-button' onClick={clearCart}> Töm varukorg</button>
@@ -46,25 +47,24 @@ const Cart = ({cartItems, setCartItems,}) => {
                     <div className='ItemInCart'>
                         <div className='Cart-item-image'>{cartItem.image} </div>
                         <div className='Cart-item-name'>{cartItem.name} </div>
-                        <div className='Cart-item-price'>Pris:{cartItem.price} </div>
-                        <div className='Cart-item-qnt'>Antal:{cartItem.quantity}</div>
+                        <div className='Cart-item-price'>Pris: {cartItem.price} </div>
+                        <div className='Cart-item-qnt'>Antal: {cartItem.quantity}</div>
 
                         <button className='BtnInCart' onClick={() => onIncrease(cartItem.id)}>+</button>
                         <button className='BtnInCart' onClick={() => onDecrease(cartItem.id)}>-</button>
                         <button className='BtnInCart' onClick={() => onDelete(cartItem.id)}>x</button>
-                        <div className='Cart-item-totalPrice'>Total pris:{cartItem.price * cartItem.quantity} kr</div>
+                        <div className='Cart-item-totalPrice'>Total pris: {cartItem.price * cartItem.quantity} kr</div>
                     </div>)}
             </div>
-            <div className='TotalPriceName'> Summan
-                <div className='Cart-item-sum'>{totalSum} Kr</div>
-            </div>
+            <div className='TotalPrice'> Summan:  {totalSum} Kr</div>
+            {/*    <div className='Cart-item-sum'>*/}
+            {/*</div>*/}
 
-            <div> Fri frakt över 259 kr </div>
-            <span> {cartItems.price ===0? "":
-                {totalSum < 259 &&
-                <div> du har ({259-totalSum} kr kvar till fri frakt) </div>}}
+            <span> {cartItems.length ===0? "":
+                totalSum < 259 &&
+                <div className='ToFreeShipping'>du har {259-totalSum} kr kvar till fri frakt</div> }
             </span>
-            {totalSum>= 259 && <div> Du har fri frakt  </div>}
+            {totalSum>= 259 && <div className='GotFreeShipping'> Du har fri frakt  </div>}
         </div>);
 }
 

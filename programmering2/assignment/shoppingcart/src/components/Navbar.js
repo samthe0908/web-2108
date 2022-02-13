@@ -17,7 +17,7 @@ export default function Navbar({cartItems, setCartItems}) {
                 </div>
                 <div className='Nav-list '>
                 <ul>
-                    <li>
+                    <li className='active'>
                         <Link to='/'>HEM</Link>
                     </li>
                     <li>
@@ -29,15 +29,16 @@ export default function Navbar({cartItems, setCartItems}) {
                 </ul>
                 </div>
                 <div className='ShopName'>
-                    <h1 className='Text'> ALL FOR CATS </h1>
-                        <Link to='/cart' className='Cart'>
-                            <img className='CartPic' src={CartPic} alt="cartPic"/>
-                            <span className='Cart-length'>
+                    <Link to='/cart' > ALL FOR CATS </Link>
+                    <span className='Cart-length'>
                                 {cartItems.length === 0 ? "" : numberOfCartItem}
                             </span>
+                        <Link to='/cart' className='Cart'>
+                            <img className='CartPic' src={CartPic} alt="cartPic"/>
+
                     </Link>
                 </div>
-                {/*<Cart cartItems={cartItems} setCartItems={setCartItems} />*/}
+
 
          </nav>
     )

@@ -267,14 +267,8 @@ c
 3programmering2/assignment/shoppingcart/package.json,6\e\6e7ab08962e0626c6f8cc9dc848f2d3c3fc7487c
 f
 6programmering2/assignment/shoppingcart/src/App.test.js,2\3\23351ab014c479957edb8c3f36bab8a066978eed
-v
-Fprogrammering2/assignment/shoppingcart/src/utils/global/css/global.css,c\c\cc1198f40240ee5183888a41efa56418b53f2f9f
-s
-Cprogrammering2/assignment/shoppingcart/src/utils/global/css/App.css,9\f\9f7f98f04a1d275507507606c25c3b8596b03629
 m
 =programmering2/assignment/shoppingcart/src/components/Data.js,3\3\3331b56d9d35a3e80f7bf12d5f2e483b985e77de
-r
-Bprogrammering2/assignment/shoppingcart/src/components/view/Home.js,4\b\4bf2c4d348cfa3e32aa5366b441bf71830d976e6
 u
 Eprogrammering2/assignment/shoppingcart/src/components/view/Contact.js,b\2\b222ae8bfa35f21230c8cb5851511006bdea3441
 w

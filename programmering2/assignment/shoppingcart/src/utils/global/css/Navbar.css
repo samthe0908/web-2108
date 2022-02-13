@@ -17,11 +17,19 @@
     background: #c0c5c1;
     text-align: center;
     padding:20px;
-    color: #c23220;
+    /*color: #c23220;*/
     width: 200px;
     height: 120px;
     display: flex;
     float: left;
+
+}
+.ShopName a{
+    text-decoration: none;
+    color: #c23220;
+    padding: 0 15px;
+    font-size: 1.17em;
+    font-weight: bold;
 }
 
 .Nav-list ul li{
@@ -29,7 +37,7 @@
     display: inline-block;
     font-size: 20px;
 }
-.Nav-list ul li a{
+.Nav-list  ul li a{
     text-decoration: none;
     color: #c23220;
     padding: 0 15px;
@@ -39,9 +47,6 @@
 .Nav-list ul li a:hover{
     color: #c0c5c1;
 }
-/*.active {*/
-/*    background-color: #129a22;*/
-/*}*/
 
 .Logo{
     width: 100px;
@@ -50,11 +55,17 @@
     border-radius: 50%;
 
 }
-.Text{
-    margin: 0;
-}
 
 .CartPic{
     width: 80px;
     height: 80px;
+}
+
+.Cart-length{
+    margin: 3px;
+    font-size: 2em;
+    font-weight: bold;
+    vertical-align:  center;
+    color: #333333;
+
 }

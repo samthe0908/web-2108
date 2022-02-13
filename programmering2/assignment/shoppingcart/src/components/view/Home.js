@@ -3,7 +3,7 @@ import '../../utils/global/css/home.css'
 const Home = () => {
     return(
         <div className='HomePage' >
-            welcome till oss
+            Välkommen till ALL FOR CATS
         </div>
     )
 }

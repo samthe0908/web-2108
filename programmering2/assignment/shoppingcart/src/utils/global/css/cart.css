@@ -1,6 +1,6 @@
 .Cart-container{
     margin: 30px auto;
-    width: 50%;
+    width: 80%;
     background-color: #333;
     color: #c23220;
     /*color: #c0c5c ;*/
@@ -8,6 +8,16 @@
     border-radius: 5px;
 }
 .Cart-item-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 50px;
+    /*border-bottom: 2px solid #c0c5c1;*/
+    color: #c23220;
+}
+.FreeShipping{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -49,7 +59,7 @@
 
 }
 .Cart-item-name{
-    width: 35%
+    width: 40%
 }
 .Cart-item-price, .Cart-item-qnt, .Cart-item-totalPrice{
     width: 20%;
@@ -67,19 +77,27 @@
 .BtnInCart:active{
     transform: translateY(1.2px);
 }
-.TotalPriceName{
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 22px;
-    font-size: 20px;
-    font-weight: 700;
+.TotalPrice{
+    /*display: flex;*/
+    /*padding-top: 20px;*/
+    /*padding-bottom: 20px;*/
+    /*padding-left: 22px;*/
+    /*font-size: 20px;*/
+    /*font-weight: 700;*/
     border-top: 2px solid #c0c5c1;
-}
-.Cart-item-sum{
     display: flex;
-    padding-left: 45%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 50px;
+    /*border-bottom: 2px solid #c0c5c1;*/
+    color: #c23220;
 }
+/*.Cart-item-sum{*/
+/*    display: flex;*/
+/*    padding-left: 45%;*/
+/*}*/
 .Clear-cart{
     display: flex;
     justify-content: flex-end;
@@ -100,4 +118,13 @@
 .Clear-cart-button:hover{
     background-color:#c23220;
 }
-
+.ToFreeShipping, .GotFreeShipping{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    height: 50px;
+    border-bottom: 2px solid #c0c5c1;
+    color: #c23220;
+}

@@ -7,14 +7,15 @@ import {Route, Routes} from "react-router-dom";
 
 
 
-const Pages=({cartItems, productItems, setCartItems}) => {
+const Pages=({cartItems, productItems, setCartItems,clearCart}) => {
     return(
     <div>
         <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/products" element={<Products cartItems={cartItems} productItems={productItems} setCartItems={setCartItems}/>} />
             <Route path="/contact" element={<Contact/>}/>
-            <Route path="/cart" element={<Cart cartItems={cartItems} productItems={productItems} setCartItems={setCartItems}/>} />
+            <Route path="/cart" element={<Cart cartItems={cartItems} setCartItems={setCartItems} clearCart={clearCart}/>}/>
+
         </Routes>
     </div>
     )

@@ -25,6 +25,7 @@ const Cart = ({cartItems, setCartItems,}) => {
     const clearCart = () => {
         setCartItems([]);
     }
+
     return (
         <div className='Cart-container'>
             <div className='Cart-item-header'> Din varukorg </div>

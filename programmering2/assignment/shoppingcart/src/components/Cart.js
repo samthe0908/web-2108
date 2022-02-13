@@ -22,8 +22,10 @@ const Cart = ({cartItems, setCartItems,}) => {
     const totalSum = cartItems.reduce(
         (price, cartItem)=> price + cartItem.quantity * cartItem.price,0
     );
+
     const clearCart = () => {
         setCartItems([]);
+
     }
 
     return (
@@ -57,6 +59,12 @@ const Cart = ({cartItems, setCartItems,}) => {
                 <div className='Cart-item-sum'>{totalSum} Kr</div>
             </div>
 
+            <div> Fri frakt över 259 kr </div>
+            <span> {cartItems.price ===0? "":
+                {totalSum < 259 &&
+                <div> du har ({259-totalSum} kr kvar till fri frakt) </div>}}
+            </span>
+            {totalSum>= 259 && <div> Du har fri frakt  </div>}
         </div>);
 }
 

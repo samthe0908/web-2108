@@ -5,7 +5,11 @@ import {Link} from "react-router-dom";
 import logo from '../img/mycat.jpg'
 import CartPic from '../img/shopping-cart-2351.png'
 
+
 export default function Navbar({cartItems, setCartItems}) {
+    const numberOfCartItem = cartItems.reduce(
+    (noOfItems, cartItem) => noOfItems + cartItem.quantity,0
+);
     return (
             <nav className='Navbar'>
                 <div>
@@ -29,7 +33,7 @@ export default function Navbar({cartItems, setCartItems}) {
                         <Link to='/cart' className='Cart'>
                             <img className='CartPic' src={CartPic} alt="cartPic"/>
                             <span className='Cart-length'>
-                                {cartItems.length === 0 ? "" : cartItems.length}
+                                {cartItems.length === 0 ? "" : numberOfCartItem}
                             </span>
                     </Link>
                 </div>

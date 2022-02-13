@@ -147,8 +147,6 @@ Bprogrammering2/exercise/2022-01-18/src/utils/global/css/global.css,7\e\7e26939
 Nprogrammering2/exercise/2022-01-20/robofriends/src/utils/global/css/global.css,4\a\4a2a20d9b61a09f9e41d812612d5eb3d2f6fe7c2
 _
 /programmering2/exercise/practice1/src/index.css,8\3\8380193368356f076531ff90ee7f21ca7873dcde
-S
-#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 k
 ;programmering2/assignment/shoppingcart/public/manifest.json,0\3\03c927e4de1dd15fe2e7c1e0fd71a0808122ea1a
 g
@@ -243,8 +241,6 @@ j
 :programmering2/exercise/practice1/src/components/header.js,9\b\9b26e959effdf1a68fb3ce049a6ac304dc968902
 ]
 -programmering2/exercise/practice1/src/App.css,4\8\481aa5e901fec0ff0da72d5966b7f35bc714a450
-]
--programmering1/assignment/js/downloadAlbum.js,d\2\d2d0208dd23a88b5665a803a756b7ac8c38bc5b1
 T
 $webutveckling1/assignment/index.html,b\f\bfe3f46e61da2caf9fc83a273eb4fb3fffeda80d
 X

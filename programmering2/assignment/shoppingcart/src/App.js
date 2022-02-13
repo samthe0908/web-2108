@@ -16,10 +16,8 @@ export default function App() {
       <div>
         <Router>
             <Navbar cartItems={cartItems} setCartItems={setCartItems}/>
-            {/*<Routes>*/}
-            {/*    <Route path="/" element={<Products productItems={productItems}/>} />*/}
-            {/*</Routes>*/}
             <Pages productItems={productItems} cartItems={cartItems} setCartItems={setCartItems}/>
+
         </Router>
       </div>
 

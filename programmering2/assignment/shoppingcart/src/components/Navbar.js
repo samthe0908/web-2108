@@ -1,7 +1,7 @@
 
 import '../utils/global/css/Navbar.css'
 import {Link} from "react-router-dom";
-import Cart from './Cart';
+// import Cart from './Cart';
 import logo from '../img/mycat.jpg'
 import CartPic from '../img/shopping-cart-2351.png'
 
@@ -28,9 +28,12 @@ export default function Navbar({cartItems, setCartItems}) {
                     <h1 className='Text'> ALL FOR CATS </h1>
                         <Link to='/cart' className='Cart'>
                             <img className='CartPic' src={CartPic} alt="cartPic"/>
+                            {/*<span className='Cart-length'>*/}
+                            {/*    {setCartItems.length === 0 ? "" : setCartItems.length}*/}
+                            {/*</span>*/}
                     </Link>
                 </div>
-                <Cart cartItems={cartItems} setCartItems={setCartItems} />
+                {/*<Cart cartItems={cartItems} setCartItems={setCartItems} />*/}
 
          </nav>
     )

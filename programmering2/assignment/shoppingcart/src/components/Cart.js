@@ -9,10 +9,16 @@ const Cart = ({cartItems, setCartItems,}) => {
     };
 
     const onDecrease = (itemId) => {
-        const copy = [...cartItems];
-        const itemToUpdate = copy.find(copyItem => copyItem.id == itemId);
-        itemToUpdate.quantity -= 1;
-        setCartItems(copy);
+            const copy = [...cartItems];
+            const itemToUpdate = copy.find(copyItem => copyItem.id == itemId);
+            if(itemToUpdate.quantity === 1){
+                setCartItems(copy.filter((copyItem) => copyItem.id !== itemId));
+            }
+            else {
+                itemToUpdate.quantity -= 1;
+                setCartItems(copy);
+            }
+
     };
 
     const onDelete = (itemId) => {
@@ -57,8 +63,7 @@ const Cart = ({cartItems, setCartItems,}) => {
                     </div>)}
             </div>
             <div className='TotalPrice'> Summan:  {totalSum} Kr</div>
-            {/*    <div className='Cart-item-sum'>*/}
-            {/*</div>*/}
+
 
             <span> {cartItems.length ===0? "":
                 totalSum < 259 &&

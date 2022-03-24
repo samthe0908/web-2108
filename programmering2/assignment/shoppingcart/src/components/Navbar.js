@@ -1,7 +1,6 @@
 
 import '../utils/global/css/Navbar.css'
 import {Link} from "react-router-dom";
-// import Cart from './Cart';
 import logo from '../img/mycat.jpg'
 import CartPic from '../img/shopping-cart-2351.png'
 

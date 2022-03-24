@@ -1,8 +1,8 @@
 import React from "react";
 import '../../utils/global/css/products.css'
 
-const Products = ({cartItems, productItems, setCartItems}) => {
-    console.log(cartItems);
+const Products = ({productItems, cartItems,  setCartItems}) => {
+    // console.log(cartItems);
 
     const updateCart = (productItem) => {
         const itemExist = cartItems.find(cartItem => cartItem.id == productItem.id);

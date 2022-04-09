@@ -267,8 +267,6 @@ c
 3programmering2/assignment/shoppingcart/package.json,6\e\6e7ab08962e0626c6f8cc9dc848f2d3c3fc7487c
 f
 6programmering2/assignment/shoppingcart/src/App.test.js,2\3\23351ab014c479957edb8c3f36bab8a066978eed
-m
-=programmering2/assignment/shoppingcart/src/components/Data.js,3\3\3331b56d9d35a3e80f7bf12d5f2e483b985e77de
 u
 Eprogrammering2/assignment/shoppingcart/src/components/view/Contact.js,b\2\b222ae8bfa35f21230c8cb5851511006bdea3441
 w

@@ -1,6 +1,6 @@
-import AliveController from "../configuration/AliveController.js";
+import AliveController from "../controllers/AliveController.js";
 
-const routes = (app) => {
+const routes = (app) =>{
   app.get ('/', AliveController.alive)
 }
 

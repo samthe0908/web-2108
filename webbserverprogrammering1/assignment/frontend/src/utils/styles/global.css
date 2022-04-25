@@ -33,7 +33,6 @@ code {
   background: burlywood;
   padding: 1rem;
   margin: 1rem 0;
-  /*border: 1px solid black;*/
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -66,15 +65,7 @@ button {
   cursor: pointer;
   font-size: 12px;
 }
-p {
-  font-size: 14px;
-  background-color: lightgrey;
-  padding: 3px;
-}
 
-p:hover{
-  background-color: burlywood;
-}
 input{
   border-radius: 6px;
   padding: 5px;

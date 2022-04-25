@@ -21,12 +21,12 @@ const getTaskByName = (req,res)=> {
 }
 
 const createTask = (req, res)=>{
-    const { id, todo, name, done} = req.body
+    const { todo, name} = req.body
     const newTask = {
-        id: id,
+        id: todoData.length,
         todo: todo,
         name: name,
-        done: done
+        done: false
     }
     todoData.push(newTask)
     res.status(201).send(todoData)

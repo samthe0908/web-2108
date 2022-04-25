@@ -1,25 +1,25 @@
 const todoData = [
     {
         id: 0,
-        todo: 'ice skating Monday',
+        todo: 'konståkning',
         name: 'Evelina',
         done:  true
     },
     {
         id: 1,
-        todo: 'Floorboll Tournament ',
+        todo: 'Innebandy tournament',
         name: 'Dennis',
         done:  false
     },
     {
         id: 2,
-        todo: 'Taekwondo Wednesday',
+        todo: 'Taekwondo',
         name: 'Cornelis',
         done:  true
     },
     {
         id: 3,
-        todo: 'Spa Friday',
+        todo: 'Spa Fredag',
         name: 'Samantha',
         done: false,
     },

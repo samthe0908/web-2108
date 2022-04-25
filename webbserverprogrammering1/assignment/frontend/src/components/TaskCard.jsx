@@ -1,4 +1,4 @@
-import css from '../utils/styles/global.css';
+import '../utils/styles/global.css';
 import {useState} from "react";
 import TaskService from "../utils/api/service/TaskService";
 
@@ -17,7 +17,7 @@ const TaskCard = ({id, todo, name, done }) => {
     return (
         <div className='taskCard'>
             <ul className='list'>
-                <li >
+                <li className={doneTask? 'done' : null} onClick={changedDone}>
                     <span>{name}</span>
                     <span>{todo}</span>
                 </li>

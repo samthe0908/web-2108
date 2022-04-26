@@ -1,14 +1,14 @@
-#Projekt Uppgift
-##API med frontend och backend
+# Projekt Uppgift
+## API med frontend och backend
 
-###Funktioner som ska finnas: CRUD metoder
+### Funktioner som ska finnas: CRUD metoder
 * Skapa nya TODOs
 * Visa en enskild TODO från databasen
 * Uppdatera texten i TODO databasen
 * Uppdatera oom en TODO är kar eller inte
 * Radera TODO från TODO databas
 
-###Planeringen och lösningar
+### Planeringen och lösningar
 För att lösa uppgifter har jag följ inspelningar från lektioner. Jag har flera gånger tittat och kodat samtidigt, på det sättet lärde jag mig.
 
 Jag har valt att följa exempel från lektioner, det flesta funktioner som ska med hade vi haft på lektionen, så för mig Backend är ganska enkel med denna uppgift.   

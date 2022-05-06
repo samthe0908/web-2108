@@ -1,4 +1,4 @@
-/ 1xx Info
+// 1xx Info
 
 // 2xx Success
 const OK = 200

@@ -126,22 +126,51 @@ const updateTaskById = async (req, res) => {
 
 const deleteTaskById = (req, res) => {
     try{
+        TaskModel.findByIdAndRemove(req.params.id, (error,tasks)=>{
+            if (error){
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error:'Error deleting task'
+                })
+            }else {
+                Logger.info(tasks)
+                res.status(StatusCode.OK).send(
+                    tasks ? `Task with ID '${req.params.id}' was deleted from databas`
+                        : `Task with ID '${req.params.id}' not found`
+                )
+            }
+        })
 
     } catch (error){
         Logger.error(error)
         res.status(StatusCode.BAD_REQUEST).send({
-            error: 'Error XXX user'
+            error: 'Error deleting task'
         })
     }
 }
 
 const updateDone = (req, res) => {
-    try{
-
-    } catch (error){
-        Logger.error(error)
+    try {
+        const {id} = req.params
+        const {newTaskStatus} = req.body
+        const returnUpdatedObject = {
+            new: true
+        }
+        const Query = {
+            done: newTaskStatus
+        }
+        TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, tasks) => {
+            if (error) {
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: `Error changing task to done`
+                })
+            } else {
+                res.status(StatusCode.OK).send(tasks.done)
+            }
+        })
+    } catch (error) {
         res.status(StatusCode.BAD_REQUEST).send({
-            error: 'Error XXX user'
+            error: `Error updating a task to done`
         })
     }
 }

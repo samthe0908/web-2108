@@ -30,17 +30,25 @@ const createTask = async (req, res) => {
     }
 }
 
-const showTasks = (reg, res) => {
-    try{
-
-    } catch (error){
-        Logger.error(error)
+const showTasks = (req, res) => {
+    try {
+        TaskModel.find({}, (error, tasks) => {
+            if (error) {
+                Logger.error(error)
+                res.status(StatusCode.BAD_REQUEST).send({
+                    error: 'Error getting tasks'
+                })
+            } else {
+                Logger.info(tasks)
+                res.status(StatusCode.OK).send(tasks)
+            }
+        })
+    } catch (error) {
         res.status(StatusCode.BAD_REQUEST).send({
-            error: 'Error XXX user'
+            error: 'Error getting tasks'
         })
     }
 }
-
 
 
 const getTaskById = (reg, res) => {

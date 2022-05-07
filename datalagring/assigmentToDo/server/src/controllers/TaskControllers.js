@@ -3,7 +3,7 @@ import StatusCode from "../utils/StatusCode.js";
 import TaskModel from "../models/TaskModel.js";
 
 const createTask = async (req, res) => {
-    Logger.info('createrUser()')
+    Logger.info('createUser()')
     Logger.http(req.body)
     const {name, task } = req.body
     if (name && task ) {

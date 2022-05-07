@@ -6,7 +6,7 @@ const createTask = async (req, res) => {
     Logger.info('createUser()')
     Logger.http(req.body)
     const {name, task } = req.body
-    if (name && task ) {
+    if (name && task  ) {
         const newObject = {
             name: name,
             task: task,

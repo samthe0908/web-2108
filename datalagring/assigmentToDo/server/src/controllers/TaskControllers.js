@@ -1,14 +1,32 @@
-import Logger from "../utils/Logge.js";
+import Logger from "../utils/Logger.js";
 import StatusCode from "../utils/StatusCode.js";
+import TaskModel from "../models/TaskModel.js";
 
-const createTask = (reg, res) => {
-    try{
+const createTask = async (req, res) => {
+    Logger.info('createrUser()')
+    Logger.http(req.body)
+    const {name, task } = req.body
+    if (name && task ) {
+        const newObject = {
+            name: name,
+            task: task,
 
-    } catch (error){
-        Logger.error(error)
-        res.status(StatusCode.BAD_REQUEST).send({
-            error: 'Error XXX user'
-        })
+        }
+        Logger.debug(newObject)
+        try {
+            const tasks = new TaskModel(newObject)
+            const response = await tasks.save()
+            Logger.debug(response)
+            res.status(StatusCode.CREATED).send(response)
+        } catch (error) {
+            Logger.error(error)
+            res.status(StatusCode.BAD_REQUEST).send({
+                error: 'Error Creating Task'
+            })
+        }
+    }else {
+        Logger.error('name and todo failed')
+        res.status(StatusCode.NO_CONTENT).send('No body')
     }
 }
 

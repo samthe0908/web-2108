@@ -1,0 +1,31 @@
+.taskCard {
+    width: 30rem;
+    max-width: 80%;
+    margin: 0.2em auto;
+    font-size: 12px;
+    padding: 0 10px;
+}
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    background: burlywood;
+    padding: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-transform: lowercase;
+
+}
+.list  li:hover{
+    background-color: lightgrey;
+
+}
+.done{
+    text-decoration: line-through;
+}

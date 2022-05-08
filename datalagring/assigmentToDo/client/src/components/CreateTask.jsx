@@ -24,7 +24,7 @@ const CreateTask = () => {
         <>
             <article>
                 <h1> Skapa ny todo</h1>
-                <span> namn: </span>
+                <span> Namn: </span>
                 <input type="text"
                        value={name}
                        onChange={event => setName(event.target.value)}/>
@@ -34,7 +34,7 @@ const CreateTask = () => {
                        value={task}
                        onChange={event => setTask(event.target.value)}/>
                 <br/>
-                <button onClick={sendDataToApi}>Skapa Ny Task </button>
+                <button onClick={sendDataToApi}>Skapa </button>
                 {data.name ? <TaskCard name = {data.name}
                                        task = {data.task}/>:''}
 

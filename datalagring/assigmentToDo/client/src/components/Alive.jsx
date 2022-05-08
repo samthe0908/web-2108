@@ -1,29 +1,37 @@
 import AliveService from "../utils/api/service/AliveService.js";
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import css from '../App.module.css'
 
 const Alive = () => {
-    const [data, setData] = useState('')
+    const [data, setData] = useState('no connection to backend')
+    const [connected, setConnected] = useState(false)
 
-    function fetchDataFromExternalApi() {
+    const fetchDataFromExternalApi= () => {
         AliveService.alive()
             .then(response => {
-                setData(response.data)
+                console.log(response.data)
+                // setData(response.data)
+                setConnected(true)
             })
-            .catch((error) => console.log(error))
+            .catch((error) =>
+                console.error(error.message))
     }
 
-    function displayData(){
-        if (data.length !== 0){
-            return <h3>Response from API "{data}"</h3>
-        }
-    }
-
+    // function displayData(){
+    //     if (data.length !== 0){
+    //         return <h3>Response from API "{data}"</h3>
+    //     }
+    // }
+    useEffect(() => {
+        fetchDataFromExternalApi()
+    }, [])
     return(
         <>
             <article>
+                {/*<p className={ connected ? css.green : css.red }>{ data }</p>*/}
                 <h2>Alive</h2>
                 <button onClick={() => fetchDataFromExternalApi()}>Make API call</button>
-                {displayData()}
+                {/*{displayData()}*/}
             </article>
         </>
     )

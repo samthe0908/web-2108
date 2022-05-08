@@ -8,7 +8,7 @@ const TaskList = ({tasks}) => {
                     return(
                         <TaskCard key={index}
                                   id={task.id}
-                                  todo={task.todo}
+                                  task={task.task}
                                   name={task.name}
                                   done={task.done}/>
 

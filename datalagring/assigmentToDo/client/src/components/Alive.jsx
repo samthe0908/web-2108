@@ -1,5 +1,6 @@
 import AliveService from "../utils/api/service/AliveService.js";
 import {useState} from "react";
+
 const Alive = () => {
     const [data, setData] = useState('')
 

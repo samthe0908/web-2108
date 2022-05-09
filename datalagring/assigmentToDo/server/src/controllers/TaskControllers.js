@@ -97,7 +97,7 @@ const getTaskByName = (req, res) => {
     }
 }
 
-const updateTaskById = async (req, res) => {
+const updateTaskById = (req, res) => {
     try {
         const updatedTask = {
             name: req.body.name,

@@ -5,7 +5,7 @@ import TaskList from './cards/TaskList'
 const ShowTasks = () => {
     const [data, setData] = useState([])
 
-    const fetchDataFromExternalApi = () => {
+        const fetchDataFromExternalApi = () => {
         TaskService.showTasks()
             .then(response => {
                 setData(response.data)

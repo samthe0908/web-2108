@@ -10,6 +10,7 @@ const createTask = async (req, res) => {
         const newObject = {
             name: name,
             task: task,
+            done:false
 
         }
         Logger.debug(newObject)
@@ -123,7 +124,6 @@ const updateTaskById = async (req, res) => {
     }
 }
 
-
 const deleteTaskById = (req, res) => {
     try{
         TaskModel.findByIdAndRemove(req.params.id, (error,tasks)=>{
@@ -159,18 +159,18 @@ const updateDone = (req, res) => {
         const Query = {
             done: newTaskStatus
         }
-        TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, tasks) => {
+        TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, task) => {
             if (error) {
                 res.status(StatusCode.BAD_REQUEST).send({
-                    error: `Error changing task to done`
+                    error: `Error changing task is done`
                 })
             } else {
-                res.status(StatusCode.OK).send(tasks.done)
+                res.status(StatusCode.OK).send(task.done)
             }
         })
     } catch (error) {
         res.status(StatusCode.BAD_REQUEST).send({
-            error: `Error updating a task to done`
+            error: `Error changing task is done`
         })
     }
 }

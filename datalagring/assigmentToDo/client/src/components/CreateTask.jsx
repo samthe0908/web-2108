@@ -12,6 +12,7 @@ const CreateTask = () => {
         const newTask = {
             'name': name,
             'task': task,
+            "done": false
         }
         TaskService.createTask(newTask)
             .then(response => {
@@ -36,7 +37,8 @@ const CreateTask = () => {
                 <br/>
                 <button onClick={sendDataToApi}>Skapa </button>
                 {data.name ? <TaskCard name = {data.name}
-                                       task = {data.task}/>:''}
+                                       task = {data.task}
+                                        done={data.done}/>:''}
 
             </article>
 

@@ -33,6 +33,7 @@ Det svåra med detta var att komma på själv hur koden skall skrivas, så mina 
 
 I Fronted tycker jag är mycket lättare eftersom jag återanvända koder från det gamla TODOs, men behövde ändra i metoder som skrivs ut data i några av funktioner. 
 Så min gamla TODOs och nya TODOs ser ganska identisk ut i fronted.  
-Ett problem som jag fick i frontend var att det inte kunde ansluta till server, det tog mig många timmar att lösa det problemet. Det löste jag genom att titta på inspelningar igen, problemet var att jag hade skapat .env fil efter att starta servern. 
+Ett problem som jag fick i frontend var att det inte kunde ansluta till server, det tog mig många timmar att lösa det problemet. Det löste jag genom att titta på inspelningar igen, problemet var att jag hade skapat .env fil efter att starta servern.   
+Nytt för mig är även module.css, och det har jag också använd i min uppgift.
 
 Det svåraste med uppgift var UpdateDone för det kunde jag inte lösa med det gamla koden, och det funktion fick jag hjälp av Ursula och Lars.

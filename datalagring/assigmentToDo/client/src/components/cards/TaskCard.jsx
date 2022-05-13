@@ -4,6 +4,7 @@ import TaskService from "../../utils/api/service/TaskService.js";
 
 
 const TaskCard = ({_id, task, name, done }) => {
+
     const [doneTask, setDoneTask] = useState(done)
 
     function changedDone() {

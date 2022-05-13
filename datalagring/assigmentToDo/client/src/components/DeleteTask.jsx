@@ -23,6 +23,7 @@ const DeleteTask =() => {
                 <button onClick={sendDataToApi}>Radera</button>
                 <h3>{data}</h3>
 
+
             </article>
         </>
     )

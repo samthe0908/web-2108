@@ -1,8 +1,6 @@
 import TaskService from "../utils/api/service/TaskService";
 import {useState} from "react";
-import TaskList from "./cards/TaskList";
 import TaskCard from "./cards/TaskCard";
-
 const GetTaskById = ()=>{
     const [data, setData] = useState([])
     const [id, setId] = useState('')
@@ -26,6 +24,7 @@ const GetTaskById = ()=>{
                 <button onClick={ () => setData([]) }>Rensa</button>
                 {data.name ? <TaskCard name={data.name}
                                    task={data.task}/>:''}
+
 
             </article>
         </>

@@ -31,7 +31,7 @@ const createTask = async (req, res) => {
     }
 }
 
-const showTasks = (req, res) => {
+const showTasks = async (req, res) => {
     try {
         TaskModel.find({}, (error, tasks) => {
             if (error) {
@@ -74,7 +74,7 @@ const getTaskById = (req, res) => {
     }
 }
 
-const getTaskByName = (req, res) => {
+const getTaskByName = async (req, res) => {
     try{
         TaskModel.find({name: req.params.name}, (error, tasks) => {
             if (error) {
@@ -150,6 +150,7 @@ const deleteTaskById = (req, res) => {
 }
 
 const updateDone = (req, res) => {
+
     try {
         const {id} = req.params
         const {newTaskStatus} = req.body
@@ -161,20 +162,21 @@ const updateDone = (req, res) => {
         }
         TaskModel.findByIdAndUpdate(id, Query, returnUpdatedObject, (error, task) => {
             if (error) {
+                Logger.error(error)
                 res.status(StatusCode.BAD_REQUEST).send({
-                    error: `Error changing task is done`
+                    error: `Error changing isDone`
                 })
             } else {
                 res.status(StatusCode.OK).send(task.done)
             }
         })
     } catch (error) {
+        Logger.error(error)
         res.status(StatusCode.BAD_REQUEST).send({
-            error: `Error changing task is done`
+            error: `Error updating isDone`
         })
     }
 }
-
 
 export default {
     createTask,

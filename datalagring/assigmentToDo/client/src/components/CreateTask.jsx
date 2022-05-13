@@ -38,7 +38,7 @@ const CreateTask = () => {
                 <button onClick={sendDataToApi}>Skapa </button>
                 {data.name ? <TaskCard name = {data.name}
                                        task = {data.task}
-                                        done={data.done}/>:''}
+                                        _id={data._id}/>:''}
 
             </article>
 

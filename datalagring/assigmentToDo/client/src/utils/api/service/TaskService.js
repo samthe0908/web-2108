@@ -1,31 +1,42 @@
 import http from '../TaskApi.js'
 
-const TaskService = {
+const taskUrl = `/task`
+const taskAll = `/task/all`
 
-     createTask: (newTask) => {
-        return http.post('/task', newTask)
-    },
-     showTasks: () => {
-        return http.get('/task/all')
-    },
-
-    getTaskByName: (name) => {
-        return http.get(`/task/name/${name}`)
-    },
-
-    getTaskById: (id) => {
-        return http.get(`/task/${id}`)
-    },
-
-    updateTask: (id, task) => {
-        return http.put(`/task/${id}`,task)
-    },
-
-    deleteTask: (id) => {
-        return http.delete(`/task/${id}`)
-    },
-    updateDone: (id) => {
-        return http.put(`/task/${id}`)
-    }
+const showTasks = () => {
+    return http.get(taskAll)
 }
-export default TaskService
+
+const createTask = (newTask) => {
+    return http.post(taskUrl, newTask)
+}
+
+const updateTask = (id, changedTask) => {
+    return http.put(`/task/${id}`, changedTask)
+}
+
+const deleteTask = (id) => {
+    return http.delete(`/task/${id}`)
+}
+
+const getTaskById = (id) => {
+    return http.get(`/task/${id}`)
+}
+
+const getTaskByName = (name) => {
+    return http.get(`/task/${name}`)
+}
+
+const updateDone = (id, payload) => {
+    return http.put(`/task/${id}`, payload)
+}
+
+export default {
+    showTasks,
+    createTask,
+    updateTask,
+    deleteTask,
+    getTaskById,
+    getTaskByName,
+    updateDone
+}

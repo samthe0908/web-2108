@@ -1,10 +1,12 @@
 import express from "express";
-import Configuration from "./configurations/Configuration.js";
-import Middlewares from "./middlewares/Middlewares.js";
+import Middlewares from "./middlewares/Middlewares.js"
+import Configuration from "./configurations/Configuration.js"
 import ApplyMiddlewares from "./middlewares/ApplyMiddlewares.js";
 import AliveRoute from "./routes/AliveRoute.js";
 import TaskRoutes from "./routes/TaskRoutes.js";
+import dotenv from "dotenv";
 
+dotenv.config()
 const app = express()
 
 ApplyMiddlewares(app)

@@ -24,11 +24,11 @@ const getTaskById = (id) => {
 }
 
 const getTaskByName = (name) => {
-    return http.get(`/task/${name}`)
+    return http.get(`/task/name/${name}`)
 }
 
-const updateDone = (id, payload) => {
-    return http.put(`/task/${id}`, payload)
+const updateDone = (id,  payload) => {
+    return http.put(`/task/${id}/done`, payload)
 }
 
 export default {

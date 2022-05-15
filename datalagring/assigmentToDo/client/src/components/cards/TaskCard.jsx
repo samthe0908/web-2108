@@ -11,7 +11,7 @@ const TaskCard = ({_id, task, name, done }) => {
         const payload = {
             newTaskStatus : !doneTask
         }
-        TaskService.updateDone(_id,payload)
+        TaskService.updateDone(_id, payload)
             .then(response => {
                 setDoneTask(response.data)
                 console.log(response.data)

@@ -8,8 +8,7 @@ npm i -D @types/cors @types/dotenv @types/helmet @types/mongoose @types/mocha @t
 npm i -D chai chai-http mocha ts-mocha ts-node @types/chai @types/chai-http @types/mocha @types/expect  
 //
 
-npx create-react-app relaxspa --template typescript  
-npm start
+npx create-react-app relaxspa --template typescript
 npm i react-router-dom bootstrap react-bootstrap
 
 

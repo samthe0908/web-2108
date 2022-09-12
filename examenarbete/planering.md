@@ -1,5 +1,5 @@
 #Planering examensarbete webbutveckling  
-## Vecka 1
+## Vecka 1 (v.33)
 Jag har bestämd mig för att skapa en fullstack webbsida för en RelaxSpa salong, som har bokning och shopping cart funktioner.  
 
 Jag kombinerar alla tidigare kunskaper under utbildningen för att bygga
@@ -13,8 +13,11 @@ Jag började med att göra wireframe och sedan designskiss på hur sida ska se u
 
 Denna vecka har mycket tid gått åt repetition på programmeringen.   
 
-## Vecka 2
+## Vecka 2 (v.34)
 Efter samtal med handledare gjord jag en begränsning på mitt projekt. Jag skulle börja med att skapa en enklare sida dvs utan bokning och shopping funktion. Om det finns tid kan jag bygga på sedan.  
-
+  
+## Vecka 3 (v.35)
+Jag har inte varit aktiv , p
+## Vecka 4 (v.36)
 
 

@@ -1,7 +1,6 @@
 import {Container, Nav, Navbar as NavbarBs} from "react-bootstrap";
 import {NavLink} from "react-router-dom";
-import logo from "../../img/relaxspalogo.png"
-//import css from "../Navbar/Navbar.module.css"
+import logo from "../../img/relaxspalogo1.png"
 
 
 export function Navbar(){
@@ -10,7 +9,7 @@ export function Navbar(){
        <Container>
            <Nav className="me-auto ">
                <Nav.Link className="navbar-brand" to="/" as ={NavLink}>
-                   <img src={logo} width="100" className="rounded-circle" alt ="logo-img"/>
+                   <img src={logo} width="100"  alt ="logo-img"/>
                </Nav.Link>
                <Nav.Link className="mt-5" style={{color:"#AE9A63"}} to="/Massage" as ={NavLink}>
 

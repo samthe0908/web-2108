@@ -1,10 +1,48 @@
-import {Container} from "react-bootstrap";
+import {Container, Carousel, CarouselItem} from "react-bootstrap";
 import css from "./Home.module.css"
+import mainimage from "../img/main-imgjpg.jpg"
+import aroma from "../img/aromastressbehandling_300x200.jpg"
+import hotstone from "../img/hotstone.jpg"
+import micronbeh from "../img/microneedlingb.jpg"
+import olja from "../img/pexels-olja-4041392.jpg"
+import fot from "../img/pexels-fot.jpg"
+import monstera from "../img/pexels-monstera-6621367.jpg"
 
 export function Home(){
     return (
         <>
-            <header className={css.home}/>
+            <Carousel>
+                <Carousel.Item>
+                    <img
+                        className={css.home}
+                        src={mainimage} alt="mainimage"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className={css.home}
+                        src={monstera} alt="monstera"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className={css.home}
+                        src={aroma} alt="aromastress"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className={css.home}
+                        src={fot} alt="fotmassage"
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className={css.home}
+                        src={olja} alt="olja"
+                    />
+                </Carousel.Item>
+            </Carousel>
             <div className="p-5" style={{backgroundColor:"#D9D9D9"}}>
                <Container style={{color:"#AE9A63"}}>
                 <h1> Ditt välmående i fokus</h1>

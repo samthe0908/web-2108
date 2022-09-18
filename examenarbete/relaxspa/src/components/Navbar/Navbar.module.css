@@ -1,4 +1,5 @@
-.navItem{
-    color:#AE9A63;
-    margin-top: 30px;
+.link {
+    color: #AE9A63;
+    font-size: large;
+    /*color: white;*/
 }

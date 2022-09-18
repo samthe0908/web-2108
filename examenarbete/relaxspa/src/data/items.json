@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "name":"hotstone",
+    "pris": 300,
+    "imgUrl": "../img/hotstone.jpg"
+
+  },
+  {
+    "id": 2,
+    "name":"duo",
+    "pris": 300,
+    "imgUrl": "../img/duo.jpg"
+
+  },
+  {
+    "id": 3,
+    "name":"duo",
+    "pris": 300,
+    "imgUrl": "../img/duo.jpg"
+
+  },
+  {
+    "id": 4,
+    "name":"duo",
+    "pris": 300,
+    "imgUrl": "../img/duo.jpg"
+
+  }
+
+]

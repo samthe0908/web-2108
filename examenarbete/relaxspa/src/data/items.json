@@ -1,31 +1,34 @@
 [
   {
     "id": 1,
-    "name":"hotstone",
+    "namn":"HOTSTONE MASSAGE",
+    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "pris": 300,
-    "imgUrl": "../img/hotstone.jpg"
+    "image":"images/hotstone.jpg"
 
   },
   {
     "id": 2,
-    "name":"duo",
+    "namn":"DUO MASSAGE",
+    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "pris": 300,
-    "imgUrl": "../img/duo.jpg"
+    "image": "images/duo.jpg"
 
   },
   {
     "id": 3,
-    "name":"duo",
+    "namn":"AYURVEDISK MASSAGE",
+    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "pris": 300,
-    "imgUrl": "../img/duo.jpg"
+    "image": "/images/AYURVEDISK-RYGGBEHANDLING_300x200.jpg"
 
   },
   {
     "id": 4,
-    "name":"duo",
+    "namn":"RYGG OCH AXLAR MASSAGE",
+    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "pris": 300,
-    "imgUrl": "../img/duo.jpg"
-
+    "image": "/images/massage2.jpg"
   }
 
 ]

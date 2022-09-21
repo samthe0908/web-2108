@@ -2,8 +2,6 @@ import {Container, Carousel, CarouselItem} from "react-bootstrap";
 import css from "./Home.module.css"
 import mainimage from "../img/main-imgjpg.jpg"
 import aroma from "../img/aromastressbehandling_300x200.jpg"
-import hotstone from "../img/hotstone.jpg"
-import micronbeh from "../img/microneedlingb.jpg"
 import olja from "../img/pexels-olja-4041392.jpg"
 import fot from "../img/pexels-fot.jpg"
 import monstera from "../img/pexels-monstera-6621367.jpg"

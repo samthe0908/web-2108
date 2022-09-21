@@ -19,17 +19,17 @@ export function Footer(){
                 <a className={css.instagram} href="#"><FaInstagramSquare/></a>
             </div>
         </Row>
-        <Row>
+        <Row xs={1} lg={4}>
             <Col> </Col>
             <Col className="col text-center  "  style={{color:"#AE9A63"}}>
-                    <h5> Kropp & Själ RelaxSpa </h5>
+                    <h5> KROPP & SJÄL RELAXSPA </h5>
                     <p>gatuadress</p>
                     <p>postnummer ort</p>
                     <p>telnummer</p>
                     <p> email</p>
             </Col>
             <Col className="col text-center " style={{color:"#AE9A63"}}>
-                    <h5> Öppettider </h5>
+                    <h5> ÖPPETTIDER </h5>
                     <p>måndag - torsdag 09 - 20</p>
                     <p>fredag - lördag  09 - 18</p>
                     <p>söndag och helgdag 11 - 18</p>

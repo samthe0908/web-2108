@@ -19,7 +19,6 @@ export function Massage(){
                             </Col>
                         ))}
 
-
                     </Row>
                 </Container>
             </div>

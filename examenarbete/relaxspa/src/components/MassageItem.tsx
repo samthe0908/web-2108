@@ -30,7 +30,6 @@ export function MassageItem({id, namn, beskrivning, pris, image}:MassageItemProp
                 color:"white",
                 borderColor:"#AE9A63",
 
-
             }}>BOKA</Button>
 
         </Card.Body>

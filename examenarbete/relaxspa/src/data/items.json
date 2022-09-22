@@ -2,7 +2,7 @@
   {
     "id": 1,
     "namn":"HOTSTONE MASSAGE",
-    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "pris": 300,
     "image":"images/hotstone.jpg"
 
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "namn":"DUO MASSAGE",
-    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "pris": 300,
     "image": "images/duo.jpg"
 
@@ -18,15 +18,15 @@
   {
     "id": 3,
     "namn":"AYURVEDISK MASSAGE",
-    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "pris": 300,
     "image": "/images/AYURVEDISK-RYGGBEHANDLING_300x200.jpg"
 
   },
   {
     "id": 4,
-    "namn":"RYGG OCH AXLAR MASSAGE",
-    "beskrivning": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "namn":"RYGG OCH AXLAR",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     "pris": 300,
     "image": "/images/massage2.jpg"
   }

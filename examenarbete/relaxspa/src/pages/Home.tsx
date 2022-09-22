@@ -10,7 +10,7 @@ export function Home(){
     return (
         <>
             <Carousel>
-                <Carousel.Item>
+                <Carousel.Item >
                     <img
                         className={css.home}
                         src={mainimage} alt="mainimage"

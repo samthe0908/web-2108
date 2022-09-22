@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "namn":"CABON LASER",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "pris": 300,
+    "image":"images/cabonlaser.jpg"
+
+  },
+  {
+    "id": 2,
+    "namn":"GRÖN LERMASK",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "pris": 300,
+    "image": "images/gronleramask_300x200.jpg"
+
+  },
+  {
+    "id": 3,
+    "namn":"DERMAPEN MICRONEEDLING",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "pris": 300,
+    "image": "images/dermapen.jpg"
+
+  },
+  {
+    "id": 4,
+    "namn":"CLASSISK BEHANDLING",
+    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "pris": 300,
+    "image": "images/ånga.jpg"
+  }
+
+]

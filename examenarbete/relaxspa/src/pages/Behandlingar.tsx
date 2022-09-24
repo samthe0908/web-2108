@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Behandling.module.css";
 import {Container, Row, Col, } from "react-bootstrap";
 import behandlingItems from "../data/behandlingItems.json"
-import {BehandlingItem} from "../components/BehandlingItem";
+import {BehandlingCard} from "../components/BehandlingCard";
 
 
 
@@ -17,7 +17,7 @@ export function Behandlingar() {
                     <Row md={2} xs={1} lg={4} >
                         {behandlingItems.map(item=>(
                             <Col Key={item.id}>
-                                <BehandlingItem{...item}/>
+                                <BehandlingCard{...item}/>
                             </Col>
                         ))}
                     </Row>

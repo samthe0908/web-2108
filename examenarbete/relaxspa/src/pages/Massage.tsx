@@ -2,7 +2,7 @@ import React from "react";
 import css from "./Massage.module.css";
 import {Container, Row, Col, } from "react-bootstrap";
 import massageItems from "../data/items.json"
-import {MassageItem} from "../components/MassageItem";
+import {MassageCard} from "../components/MassageCard";
 
 
 
@@ -16,7 +16,7 @@ export function Massage(){
                     <Row md={2} xs={1} lg={4} >
                         {massageItems.map(item=>(
                             <Col Key={item.id}>
-                                <MassageItem{...item}/>
+                                <MassageCard{...item}/>
                             </Col>
                         ))}
 

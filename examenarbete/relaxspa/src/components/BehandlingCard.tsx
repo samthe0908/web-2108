@@ -8,7 +8,7 @@ type BehandlingItemProp ={
     pris: number
     image:string
 }
-export function BehandlingItem({id, namn, beskrivning, pris, image}:BehandlingItemProp){
+export function BehandlingCard({id, namn, beskrivning, pris, image}:BehandlingItemProp){
     return(
         <Card className="h-100">
             <Card.Img

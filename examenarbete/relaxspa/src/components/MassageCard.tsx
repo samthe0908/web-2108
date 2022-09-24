@@ -8,7 +8,7 @@ type MassageItemProp ={
     pris: number
     image:string
 }
-export function MassageItem({id, namn, beskrivning, pris, image}:MassageItemProp){
+export function MassageCard({id, namn, beskrivning, pris, image}:MassageItemProp){
     return(
     <Card className="h-100">
         <Card.Img

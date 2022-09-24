@@ -1,6 +1,6 @@
+import React from "react";
 import {Container,Navbar, Nav, Form, Button} from "react-bootstrap";
 import logo from "../../img/relaxspalogo1.png"
-import css from "./Navbar.module.css"
 import {FaShoppingCart} from "react-icons/fa";
 
 
@@ -14,21 +14,10 @@ export function MainNavbar(){
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:"white", color:"#AE9A63d"}} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" >
-                        <Nav.Link href="/Massage" /*className={css.link}*/ style={{color:"#AE9A63", fontSize:"large"}}>MASSAGE</Nav.Link>
+                        <Nav.Link href="/Massage"  style={{color:"#AE9A63", fontSize:"large"}}>MASSAGE</Nav.Link>
                         <Nav.Link href="/Behandlingar" style={{color:"#AE9A63", fontSize:"large"}}>BEHANDLINGAR</Nav.Link>
-                        <Nav.Link href="/#" style={{color:"#AE9A63", fontSize:"large"}}>ERBJUDANDE</Nav.Link>
-                        <Nav.Link href="/#" style={{color:"#AE9A63", fontSize:"large"}}>OM OSS</Nav.Link>
-                        {/*<NavDropdown title="Dropdown" id="basic-nav-dropdown">*/}
-                        {/*    <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>*/}
-                        {/*    <NavDropdown.Item href="#action/3.2">*/}
-                        {/*        Another action*/}
-                        {/*    </NavDropdown.Item>*/}
-                        {/*    <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>*/}
-                        {/*    <NavDropdown.Divider />*/}
-                        {/*    <NavDropdown.Item href="#action/3.4">*/}
-                        {/*        Separated link*/}
-                        {/*    </NavDropdown.Item>*/}
-                        {/*</NavDropdown>*/}
+                        <Nav.Link href="/Erbjudande" style={{color:"#AE9A63", fontSize:"large"}}>ERBJUDANDE</Nav.Link>
+                        <Nav.Link href="/About" style={{color:"#AE9A63", fontSize:"large"}}>OM MIG</Nav.Link>
                     </Nav>
                     <Form className="d-flex">
                         <Form.Control
@@ -61,7 +50,6 @@ export function MainNavbar(){
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-
 
 
     )

@@ -1,3 +1,4 @@
+import React from "react";
 import css from "./Behandling.module.css";
 import {Container, Row, Col, } from "react-bootstrap";
 import behandlingItems from "../data/behandlingItems.json"
@@ -19,7 +20,6 @@ export function Behandlingar() {
                                 <BehandlingItem{...item}/>
                             </Col>
                         ))}
-
                     </Row>
                 </Container>
             </div>

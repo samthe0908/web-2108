@@ -1,3 +1,4 @@
+import React from "react";
 import {Container, Carousel, CarouselItem} from "react-bootstrap";
 import css from "./Home.module.css"
 import mainimage from "../img/main-imgjpg.jpg"

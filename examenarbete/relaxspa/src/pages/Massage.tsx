@@ -1,3 +1,4 @@
+import React from "react";
 import css from "./Massage.module.css";
 import {Container, Row, Col, } from "react-bootstrap";
 import massageItems from "../data/items.json"

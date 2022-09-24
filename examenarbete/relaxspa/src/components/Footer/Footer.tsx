@@ -1,7 +1,8 @@
+
 import logo from "../../img/relaxspalogo1.png";
 import { FaFacebookSquare, FaInstagramSquare  } from "react-icons/fa";
 import css from "./Footer.module.css"
-import {Button, Col, Modal, ModalBody, ModalHeader, ModalTitle, Row} from "react-bootstrap";
+import {Button, Col, Modal, Row} from "react-bootstrap";
 import React, { useState } from 'react';
 
 
@@ -58,17 +59,17 @@ export function Footer(){
             backdrop="static"
             keyboard={false}
         >
-            <Modal.Header closeButton>
-                <Modal.Title>Avvikande öppettider</Modal.Title>
+            <Modal.Header className="p-3" closeButton style={{color: "#AE9A63"}}>
+                <Modal.Title >Avvikande öppettider</Modal.Title>
             </Modal.Header>
-            <Modal.Body>
+            <Modal.Body className="fs-5" style={{backgroundColor: "#D9D9D9", color: "#AE9A63", textAlign: "center"}}>
                 <p> Nyårsdagen stängt</p>
                 <p> Midsommarafton stängt</p>
                 <p> Midsommardagen stängt</p>
                 <p> Julafton stängt</p>
             </Modal.Body>
-            <Modal.Footer >
-                <h3>TREVLIG HELG</h3>
+            <Modal.Footer style={{backgroundColor: "#131313", color: "#AE9A63", justifyContent:"center" }} >
+                <h3 >TREVLIG HELG</h3>
             </Modal.Footer>
         </Modal>
 

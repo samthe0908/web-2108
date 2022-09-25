@@ -2,7 +2,7 @@
   {
     "id": 1,
     "namn":"HOTSTONE MASSAGE",
-    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "beskrivning": "Hot Stone-massage är varma stenar som används som en del av massagen. Behandlingen hjälper till att minska stress och ångest, främjar avslappning och lindra smärta och muskelspänningar, stärker immunförsvaret och förbättrar sömn.",
     "pris": 300,
     "image":"images/hotstone.jpg"
 
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "namn":"DUO MASSAGE",
-    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "beskrivning": "Släpp all stress för en stund och njut av en avkopplande stund tillsammans med någon du tycker om.  I harmonisk miljö tas ni om hand av erfarna spaterapeuter som gör allt för att ni ska få en rofylld stund. Att dela en sådan upplevelse med någon man håller kär är som balsam för både kropp och själ.",
     "pris": 300,
     "image": "images/duo.jpg"
 
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "namn":"AYURVEDISK MASSAGE",
-    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "beskrivning": "Abhyanga är den vanligaste och mest använda helkroppsmassagen inom Ayurveda där varm olja används. Den passar alla doshor (kroppstyp), passar förträffligt för personer med Vata-inslag. Massagen är behaglig, djup avkopplande för både kroppsligt och mentalt. Behandlingen stärker nervsystemet, cirkulationen och vitaliteten ökar och muskler och leder mjukas upp. Ama, dvs slaggprodukter renas och tas bort.",
     "pris": 300,
     "image": "/images/AYURVEDISK-RYGGBEHANDLING_300x200.jpg"
 
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "namn":"RYGG OCH AXLAR",
-    "beskrivning": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "beskrivning": "Den här behandlingslängden är anpassad för rygg, skulderblad och nacke. Men vid varje enskilt tillfälle kommer vi överens om en behandling som passar just dig. En Halvkropp där det finns gott om tid att arbeta igenom de delar där du har behov. Vi kan t.ex massera rygg och armar eller lägga fokus på något område med extra spänningar eller behov.",
     "pris": 300,
     "image": "/images/massage2.jpg"
   }

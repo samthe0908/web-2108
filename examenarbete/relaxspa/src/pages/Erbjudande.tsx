@@ -4,8 +4,6 @@ import {Container, Row, Col, } from "react-bootstrap";
 import erbjudandeItems from "../data/erbjudande.json"
 import {ErbjudandeCard} from "../components/ErbjudandeCard";
 
-
-
 export function Erbjudande() {
 
     return (

@@ -25,7 +25,7 @@ export function MassageCard({id, namn, beskrivning, pris, image}:MassageItemProp
             <Card.Text className="d-flex flex-column ">
                 <span>{beskrivning}</span>
             </Card.Text>
-            <Button className="fs-4"
+            <Button className="fs-4 mt-auto"
                     style={{
                 backgroundColor:"#AE9A63",
                 color:"white",

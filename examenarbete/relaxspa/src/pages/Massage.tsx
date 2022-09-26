@@ -7,8 +7,9 @@ import {MassageCard} from "../components/MassageCard";
 
 
 
-export function Massage(){
-    return(
+export function Massage() {
+
+    return (
         <>
             <header className={css.massage}/>
             <div className="p-5" style={{backgroundColor: "#D9D9D9"}}>
@@ -26,3 +27,4 @@ export function Massage(){
         </>
     )
 }
+

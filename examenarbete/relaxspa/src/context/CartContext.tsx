@@ -1,4 +1,5 @@
 import {createContext, ReactNode, useContext, useState} from "react";
+import {Cart} from "../components/Cart";
 
 type CartProviderProps = {
     children:ReactNode
@@ -93,6 +94,7 @@ const openCart = () => setIs0pen(true)
                 closeCart}}
         >
             {children}
+            <Cart/>
         </CartContext.Provider>
     )
     }

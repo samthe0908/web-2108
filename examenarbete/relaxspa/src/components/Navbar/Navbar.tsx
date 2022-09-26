@@ -8,7 +8,7 @@ export function MainNavbar(){
     return(
         <Navbar expand="md"  sticky="top" style={{backgroundColor:"#131313"}}>
             <Container>
-            <a className="navbar.brand " href="/" >
+            <a className="navbar.brand active "   href="/" >
                 <img className="mx-4"  src={logo} width="100"  alt ="logo-img"/>
             </a>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:"white", color:"#AE9A63d"}} />

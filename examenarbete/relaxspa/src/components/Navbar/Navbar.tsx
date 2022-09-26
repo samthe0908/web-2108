@@ -2,9 +2,11 @@ import React from "react";
 import {Container,Navbar, Nav, Form, Button} from "react-bootstrap";
 import logo from "../../img/relaxspalogo1.png"
 import {FaShoppingCart} from "react-icons/fa";
-
+import {useCart} from "../../context/CartContext";
 
 export function MainNavbar(){
+    const {openCart, cartQty} = useCart()
+
     return(
         <Navbar expand="md"  sticky="top" style={{backgroundColor:"#131313"}}>
             <Container>
@@ -28,11 +30,12 @@ export function MainNavbar(){
                         />
                         <Button variant="outline-dark" style={{color:"#AE9A63", backgroundColor:"#131313", fontSize:"large"}}>SÖK</Button>
                     </Form>
-                    <button
+                    {cartQty> 0 && (<button onClick={openCart}
                         style={{width:"4rem", height:"4em", position:"relative"}}
                         className="rounded-circle mx-3"
                     >
                         <FaShoppingCart style={{fontSize:"35px", color:"#AE9A63"}}/>
+
                         <div className="rounded-circle bg-danger d-flex justify-content-center  align-items-center"
                         style={{
                             color:"white",
@@ -44,9 +47,9 @@ export function MainNavbar(){
                             transform:"translate(25%, 25%)",
                         }}
                         >
-                            3
+                            {cartQty}
                         </div>
-                    </button>
+                    </button>)}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

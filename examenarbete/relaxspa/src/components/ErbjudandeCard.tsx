@@ -18,10 +18,9 @@ export function ErbjudandeCard({id, namn, beskrivning, pris, image}:ErbjudandeIt
     }= useCart()
 
     const antal =  getItemQuantity(id);
-
     const BuyButton = () => {
         return (
-            <Button className="fs-4 w-100"
+            <Button onClick={() => increaseCartQuantity(id)} className="fs-4 w-100"
                     style={{
                         backgroundColor: "#AE9A63",
                         color: "white",
@@ -35,11 +34,11 @@ export function ErbjudandeCard({id, namn, beskrivning, pris, image}:ErbjudandeIt
                  style={{gap:".5rem"}}>
                 <div className="d-flex align-items-center justify-content-center flex-row"
                      style={{gap:".5rem"}}>
-                    <Button>-</Button>
+                    <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
                     <span className="fs-3">{antal}</span>
-                    <Button>+</Button>
+                    <Button onClick={() => increaseCartQuantity(id)}>+</Button>
                 </div>
-                <Button variant="danger" size="sm" >ta bort</Button>
+                <Button onClick={() => removeFromCart(id)} variant="danger" size="sm" >ta bort</Button>
             </div>
         )
     }

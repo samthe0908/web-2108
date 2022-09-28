@@ -94,7 +94,7 @@ const openCart = () => setIs0pen(true)
                 closeCart}}
         >
             {children}
-            <Cart/>
+            <Cart isOpen={is0pen}/>
         </CartContext.Provider>
     )
     }

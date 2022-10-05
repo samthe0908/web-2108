@@ -1,16 +1,16 @@
 import React from "react";
 import {Button, Stack,} from "react-bootstrap";
-import erbjudandeItems from "../data/erbjudande.json"
+import offerItems from "../data/offer.json"
 import {useCart} from "../context/CartContext";
 
 type CartItemProps = {
     id: number
-    antal: number
+    quantity: number
 }
 
-export function CartItem({id, antal}: CartItemProps) {
+export function CartItem({id, quantity}: CartItemProps) {
     const { removeFromCart } = useCart()
-    const item = erbjudandeItems.find(i => i.id === id)
+    const item = offerItems.find(i => i.id === id)
     if (item == null) return null
 
     return (
@@ -18,19 +18,19 @@ export function CartItem({id, antal}: CartItemProps) {
             <img src={item.image} alt="image" style={{width: "125px", height:"75px", objectFit:"cover"}}/>
             <div className="me-auto ">
                 <div>
-                    {item.namn} { ""}
-                    {antal > 1 && (
+                    {item.name} { ""}
+                    {quantity > 1 && (
                        <span className= "text-muted " style={{fontSize:"1rem"}}>
-                          x {antal} st
+                          x {quantity} st
                        </span>
                     )}
                 </div>
                 <div className= "text-muted " >
-                    à {item.pris} kr
+                    à {item.price} kr
                 </div>
             </div>
                 <div>
-                   {item.pris*antal} kr
+                   {item.price*quantity} kr
                 </div>
             <Button
                 variant="outline-danger"
@@ -39,8 +39,6 @@ export function CartItem({id, antal}: CartItemProps) {
             >
                 &times;
             </Button>
-
-
 
         </Stack>
 

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name":"PRESENTKORT",
+    "desc": "Vi har presenter och gåvor för alla tillfällen och högtider. Ett presentkort från oss visar att du verkligen bryr dig och att du vill att dina nära ska må riktigt gott. Det är en garanterat uppskattad gåva.",
+    "price": 500,
+    "image":"images/presentkort.jpg"
+
+  },
+  {
+    "id": 2,
+    "name":"DUO MASSAGE 45 min",
+    "desc": "Släpp all stress för en stund och njut av en avkopplande stund tillsammans med någon du tycker om.  I harmonisk miljö tas ni om hand av erfarna spaterapeuter som gör allt för att ni ska få en rofylld stund. Att dela en sådan upplevelse med någon man håller kär är som balsam för både kropp och själ.",
+    "price": 700,
+    "image": "images/duo.jpg"
+
+  },
+  {
+    "id": 3,
+    "name":"DERMAPEN MICRONEEDLING",
+    "desc": "Microneedling är en avancerad djupgående behandling som innebär att minimala nålar förs över hela hudytan för att skapa små mikrokanaler i det översta hudlagret. Det stimulerar blodcirkulationen och bildandet av kollagen, vilket har en föryngrande effekt på hela hudens kvalitet och utseende. Behandlingen kan också användas för att slussa ner olika verksamma produkter som hyaluronsyra eller vitaminer djupare i huden, för en större effekt som jämnar ut och stärker hela hudytan.",
+    "price": 300,
+    "image": "images/dermapen.jpg"
+
+  },
+  {
+    "id": 4,
+    "name":"GRÖN LERMASK",
+    "desc": "Soltorkad grön lera har en enastående rengörande kraft. Det tar bort orenheter, även i de djupare hudlagren. Grön lera ger optimal vård för alla med känslig eller oren hud, men även för hudtyper vars hy är i behov av en akut avgiftande frisk-kick. Grön lera lugnar huden och avlägsnar orenheter på djupet som kan vara orsakade av kemiska avlagringar av kosmetika.",
+    "price": 300,
+    "image": "images/gronleramask_300x200.jpg"
+
+  }
+
+]

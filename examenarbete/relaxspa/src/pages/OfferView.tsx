@@ -1,23 +1,20 @@
 import React from "react";
-import css from "./Behandling.module.css";
+import css from "./FaceTreatmentView.module.css";
 import {Container, Row, Col, } from "react-bootstrap";
-import behandlingItems from "../data/behandlingItems.json"
-import {BehandlingCard} from "../components/BehandlingCard";
+import offerItems from "../data/offer.json"
+import {OfferCard} from "../components/OfferCard";
 
-
-
-
-export function Behandlingar() {
+export function OfferView() {
 
     return (
         <>
-            <header className={css.behandling}/>
+            <header className={css.erbjudande}/>
             <div className="p-5" style={{backgroundColor: "#D9D9D9"}}>
                 <Container style={{color: "#AE9A63"}}>
                     <Row md={2} xs={1} lg={4} >
-                        {behandlingItems.map(item=>(
+                        {offerItems.map(item=>(
                             <Col Key={item.id}>
-                                <BehandlingCard{...item}/>
+                                <OfferCard{...item}/>
                             </Col>
                         ))}
                     </Row>

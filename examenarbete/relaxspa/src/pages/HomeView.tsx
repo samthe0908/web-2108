@@ -1,13 +1,13 @@
 import React from "react";
 import {Container, Carousel, CarouselItem} from "react-bootstrap";
-import css from "./Home.module.css"
+import css from "./HomeView.module.css"
 import mainimage from "../img/main-imgjpg.jpg"
 import aroma from "../img/aromastressbehandling_300x200.jpg"
 import olja from "../img/pexels-olja-4041392.jpg"
 import fot from "../img/pexels-fot.jpg"
 import monstera from "../img/pexels-monstera-6621367.jpg"
 
-export function Home(){
+export function HomeView(){
     return (
         <>
             <Carousel>

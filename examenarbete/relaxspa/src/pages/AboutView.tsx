@@ -1,5 +1,5 @@
 import React from "react";
-import css from "./About.module.css";
+import css from "./AboutView.module.css";
 import profileImage from "../img/samAuthor4.jpeg"
 import {AboutMe} from "../components/AboutMe";
 import {FaFacebookSquare, FaInstagramSquare, FaEnvelopeSquare,FaLinkedin,FaGithubSquare,FaTwitterSquare,FaCss3Alt, FaGitAlt, FaHtml5,FaJs,FaNodeJs,FaReact} from "react-icons/fa";
@@ -7,7 +7,7 @@ import {DiMongodb } from "react-icons/di"
 import { SiTypescript} from "react-icons/si"
 
 
-export function About(){
+export function AboutView(){
 
     return(
         <>
@@ -26,7 +26,9 @@ export function About(){
                 </div>
             </header>
             <div className="p-5" style={{backgroundColor: "#D9D9D9"}}>
-                <p> Jag heter Samantha Theerawat, Jag är en nyutexaminerad fullstack webbutvecklare med en stor passion för programmering. Denna webbsida är en av de projekt jag gjort under utblildning. Jag försöker alltid uppnå min bästa version.</p>
+                <p> Jag heter Samantha Theerawat, Jag är en nyutexaminerad fullstack webbutvecklare med en stor passion för programmering.</p>
+                <p>Denna webbsida är en av de projekt jag gjort under min utbildning. Jag valde att inte implementera bokning funktion i projektet ännu, eftersom jag ansåg att projektet inte skulle bli klart i tid. Det finns dock köp-funktion under Erbjudande. </p>
+                <p>Jag utmanar mig själv på en högre nivå coh alltid försöker uppnå min bästa version.</p>
                 <div className="text-center flex-row  mb-3">
                     <a className={css.facebook}  href="https://www.facebook.com/samantha.theerawat"><FaFacebookSquare/></a>
                     <a className={css.instagram} href="https://www.instagram.com/nokiang_thee/"><FaInstagramSquare/></a>

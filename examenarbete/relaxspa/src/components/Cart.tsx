@@ -2,7 +2,7 @@ import React from "react";
 import {Offcanvas, Stack} from "react-bootstrap";
 import {useCart} from "../context/CartContext";
 import {CartItem} from "./CartItem";
-import erbjudandeItems from "../data/erbjudande.json"
+import offerItems from "../data/offer.json"
 
 
 
@@ -24,8 +24,8 @@ export function Cart({ isOpen }: CartProps){
                         ))}
                     <div className="ms-auto fw-bold fs-5">
                         Total {""} {""} {(cartItems.reduce((total,cartItem) => {
-                        const item = erbjudandeItems.find(i => i.id === cartItem.id)
-                        return total + (item?.pris || 0) * cartItem.antal
+                        const item = offerItems.find(i => i.id === cartItem.id)
+                        return total + (item?.price|| 0) * cartItem.quantity
                     }, 0))} kr.
                     </div>
                 </Stack>

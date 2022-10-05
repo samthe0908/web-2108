@@ -1,14 +1,15 @@
 import React from "react";
 import {Card, Button} from "react-bootstrap";
 
-type BehandlingItemProp ={
+type FaceTreatmentItemProp ={
     id: number
-    namn: string
-    beskrivning:string
-    pris: number
+    cat:string
+    name: string
+    desc:string
+    price: number
     image:string
 }
-export function BehandlingCard({id, namn, beskrivning, pris, image}:BehandlingItemProp){
+export function FaceTreatmentCard({id, cat, name, desc, price, image}:FaceTreatmentItemProp){
     return(
         <Card className="h-100">
             <Card.Img
@@ -19,11 +20,11 @@ export function BehandlingCard({id, namn, beskrivning, pris, image}:BehandlingIt
                 style={{objectFit:"cover"}}/>
             <Card.Body className="d-flex flex-column">
                 <Card.Title className="d-flex mb-4">
-                    <span>{namn} </span>
+                    <span>{name} </span>
 
                 </Card.Title>
                 <Card.Text className="d-flex flex-column ">
-                    <span>{beskrivning}</span>
+                    <span>{desc}</span>
                 </Card.Text>
                 <Button className="fs-4 mt-auto"
                         style={{

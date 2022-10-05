@@ -2,13 +2,14 @@ import {createContext, ReactNode, useContext, useState} from "react";
 import {Cart} from "../components/Cart";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 
+
 type CartProviderProps = {
     children:ReactNode
 }
 
 type CartItem = {
     id: number
-    antal: number
+    quantity: number
 }
 type CartContextType ={
     openCart: () => void
@@ -27,6 +28,7 @@ const CartContext = createContext({} as CartContextType)
 export function useCart() {
     return useContext(CartContext)
 }
+
 export function CartProvider({children}:
 CartProviderProps){
     const [is0pen, setIs0pen] = useState(false)
@@ -35,23 +37,23 @@ CartProviderProps){
         "shopping-cart",
         [])
 
-    const cartQty = cartItems.reduce((antal, item) => item.antal + antal, 0)
+    const cartQty = cartItems.reduce((quantity, item) => item.quantity + quantity, 0)
 
-const openCart = () => setIs0pen(true)
+    const openCart = () => setIs0pen(true)
     const closeCart = () => setIs0pen(false)
 
     function getItemQuantity(id: number){
-        return cartItems.find(item => item.id === id)?.antal || 0
+        return cartItems.find(item => item.id === id)?.quantity || 0
     }
 
     function increaseCartQuantity (id: number){
         setCartItems(currentItems =>{
             if ( currentItems.find(item => item.id === id) == null){
-                return [...currentItems, {id, antal: 1}]
+                return [...currentItems, {id, quantity: 1}]
             }else {
                 return currentItems.map(item => {
                     if (item.id === id){
-                        return {...item, antal: item.antal +1}
+                        return {...item, quantity: item.quantity +1}
                     }else {
                         return item
                     }
@@ -63,12 +65,12 @@ const openCart = () => setIs0pen(true)
 
     function decreaseCartQuantity (id: number){
         setCartItems(currentItems =>{
-            if ( currentItems.find(item => item.id === id)?.antal === 1){
+            if ( currentItems.find(item => item.id === id)?.quantity === 1){
                 return currentItems.filter(item=> item.id !== id)
             }else {
                 return currentItems.map(item => {
                     if (item.id === id){
-                        return {...item, antal: item.antal -1}
+                        return {...item, quantity: item.quantity -1}
                     }else {
                         return item
                     }
@@ -83,7 +85,6 @@ const openCart = () => setIs0pen(true)
             return currentItems.filter(item=> item.id !== id)
         })
         }
-
 
     return(
         <CartContext.Provider

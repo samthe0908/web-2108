@@ -1,11 +1,17 @@
-import React from "react";
-import {Container,Navbar, Nav, Form, Button} from "react-bootstrap";
+import React, {useState} from "react";
+import {Container,Navbar, Nav, Form, Button, Modal} from "react-bootstrap";
 import logo from "../../img/relaxspalogo1.png"
-import {FaShoppingCart} from "react-icons/fa";
+import {FaShoppingCart, FaSistrix} from "react-icons/fa";
 import {useCart} from "../../context/CartContext";
+
 
 export function MainNavbar(){
     const {openCart, cartQty} = useCart()
+
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
 
     return(
         <Navbar expand="md"  sticky="top" style={{backgroundColor:"#131313"}}>
@@ -16,44 +22,74 @@ export function MainNavbar(){
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:"white", color:"#AE9A63d"}} />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto" >
-                        <Nav.Link href="/Massage"  style={{color:"#AE9A63", fontSize:"large"}}>MASSAGE</Nav.Link>
-                        <Nav.Link href="/Behandlingar" style={{color:"#AE9A63", fontSize:"large"}}>BEHANDLINGAR</Nav.Link>
-                        <Nav.Link href="/Erbjudande" style={{color:"#AE9A63", fontSize:"large"}}>ERBJUDANDE</Nav.Link>
-                        <Nav.Link href="/About" style={{color:"#AE9A63", fontSize:"large"}}>OM MIG</Nav.Link>
+                        <Nav.Link href="/MassageView"  style={{color:"#AE9A63", fontSize:"large"}}>MASSAGE</Nav.Link>
+                        <Nav.Link href="/FaceTreatmentView" style={{color:"#AE9A63", fontSize:"large"}}>BEHANDLINGAR</Nav.Link>
+                        <Nav.Link href="/OfferView" style={{color:"#AE9A63", fontSize:"large"}}>ERBJUDANDE</Nav.Link>
+                        <Nav.Link href="/AboutView" style={{color:"#AE9A63", fontSize:"large"}}>OM MIG</Nav.Link>
+                        <Nav.Link href="/TreatmentView" style={{color:"#AE9A63", fontSize:"large"}}>Alla</Nav.Link>
                     </Nav>
-                    <Form className="d-flex">
-                        <Form.Control
-                            type="search"
-                            placeholder="Sök"
-                            className="me-2"
-                            aria-label="Search"
-                        />
-                        <Button variant="outline-dark" style={{color:"#AE9A63", backgroundColor:"#131313", fontSize:"large"}}>SÖK</Button>
-                    </Form>
-                    {cartQty> 0 && (<button onClick={openCart}
-                        style={{width:"4rem", height:"4em", position:"relative"}}
-                        className="rounded-circle mx-3"
-                    >
-                        <FaShoppingCart style={{fontSize:"35px", color:"#AE9A63"}}/>
-
-                        <div className="rounded-circle bg-danger d-flex justify-content-center  align-items-center"
-                        style={{
-                            color:"white",
-                            width:"1.5rem",
-                            height:"1.5rem",
-                            position:"absolute",
-                            bottom: 0,
-                            right:0,
-                            transform:"translate(25%, 25%)",
-                        }}
-                        >
-                            {cartQty}
-                        </div>
-                    </button>)}
+                    <FaSistrix
+                    style={{color:"#AE9A63", fontSize: "40px"}}
+                    onClick={handleShow}
+                    />
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
 
+
+                {cartQty > 0 && (<button onClick={openCart}
+                                                          style={{width:"4rem", height:"4em", position:"relative"}}
+                                                          className="rounded-circle mx-3"
+            >
+                <FaShoppingCart style={{fontSize:"35px", color:"#AE9A63"}}/>
+
+
+                <div className="rounded-circle bg-danger d-flex justify-content-center  align-items-center"
+                     style={{
+                         color:"white",
+                         width:"1.5rem",
+                         height:"1.5rem",
+                         position:"absolute",
+                         bottom: 0,
+                         right:0,
+                         transform:"translate(25%, 25%)",
+                     }}
+                >
+                    {cartQty}
+                </div>
+            </button>)}
+            </Container>
+
+            <Modal
+                size="lg"
+                show={show}
+                onHide={handleClose}
+                backdrop="static"
+                keyboard={false}
+
+            >
+
+                    <Modal.Header closeButton className="align" style={{backgroundColor: "#D9D9D9", color: "#AE9A63"}}>
+                        <Form>
+                        <Form.Control
+                            size="lg"
+                            className="d-fle"
+                            id="searchInput"
+                            type="search"
+                            placeholder= "sök"
+                            aria-label="Search"
+
+                            // onChange={onchange}
+                        />
+                        </Form>
+
+                </Modal.Header>
+
+                <Modal.Body  style={{backgroundColor: "#D9D9D9", color: "#AE9A63", textAlign: "center"}}>
+                    I will not close if you click outside me. Don't even try to press
+                    escape key.
+                </Modal.Body>
+
+            </Modal>
+        </Navbar>
 
     )
 }

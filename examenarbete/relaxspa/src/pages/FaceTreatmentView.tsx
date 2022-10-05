@@ -1,30 +1,27 @@
 import React from "react";
-import css from "./Massage.module.css";
+import css from "./FaceTreatmentView.module.css";
 import {Container, Row, Col, } from "react-bootstrap";
-import massageItems from "../data/items.json"
-import {MassageCard} from "../components/MassageCard";
+import treatmentData from "../data/treatment.json"
+import {FaceTreatmentCard} from "../components/FaceTreatmentCard";
 
 
 
-
-export function Massage() {
-
+export function FaceTreatmentView() {
+    const treatmentSearchItem =  treatmentData.filter(item => item.cat == "F")
     return (
         <>
-            <header className={css.massage}/>
+            <header className={css.faceTreatment}/>
             <div className="p-5" style={{backgroundColor: "#D9D9D9"}}>
                 <Container style={{color: "#AE9A63"}}>
                     <Row md={2} xs={1} lg={4} >
-                        {massageItems.map(item=>(
+                        {treatmentSearchItem.map(item=>(
                             <Col Key={item.id}>
-                                <MassageCard{...item}/>
+                                <FaceTreatmentCard{...item}/>
                             </Col>
                         ))}
-
                     </Row>
                 </Container>
             </div>
         </>
     )
 }
-

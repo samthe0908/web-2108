@@ -1,15 +1,15 @@
-import React, {useState} from "react";
+import React from "react";
 import {Card, Button} from "react-bootstrap";
 import {useCart} from "../context/CartContext";
 
-type ErbjudandeItemProp ={
+type OfferItemProp ={
     id: number
-    namn: string
-    beskrivning:string
-    pris: number
+    name: string
+    desc:string
+    price: number
     image:string
 }
-export function ErbjudandeCard({id, namn, beskrivning, pris, image}:ErbjudandeItemProp){
+export function OfferCard({id, name, desc, price, image}:OfferItemProp){
     const{
         getItemQuantity,
         increaseCartQuantity,
@@ -17,7 +17,7 @@ export function ErbjudandeCard({id, namn, beskrivning, pris, image}:ErbjudandeIt
         removeFromCart
     }= useCart()
 
-    const antal =  getItemQuantity(id);
+    const Quantity =  getItemQuantity(id);
     const BuyButton = () => {
         return (
             <Button onClick={() => increaseCartQuantity(id)} className="fs-4 w-100"
@@ -35,7 +35,7 @@ export function ErbjudandeCard({id, namn, beskrivning, pris, image}:ErbjudandeIt
                 <div className="d-flex align-items-center justify-content-center flex-row"
                      style={{gap:".5rem"}}>
                     <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
-                    <span className="fs-3">{antal}</span>
+                    <span className="fs-3">{Quantity}</span>
                     <Button onClick={() => increaseCartQuantity(id)}>+</Button>
                 </div>
                 <Button onClick={() => removeFromCart(id)} variant="danger" size="sm" >ta bort</Button>
@@ -53,14 +53,14 @@ export function ErbjudandeCard({id, namn, beskrivning, pris, image}:ErbjudandeIt
                 style={{objectFit:"cover"}}/>
             <Card.Body className="d-flex flex-column ">
                 <Card.Title className="d-flex mb-4  flex-column">
-                    <span>{namn}</span>
-                    <span>{pris} kr</span>
+                    <span>{name}</span>
+                    <span>{price} kr</span>
                 </Card.Title>
                 <Card.Text className="d-flex flex-column ">
-                    <span>{beskrivning}</span>
+                    <span>{desc}</span>
                 </Card.Text>
                 <div className="mt-auto">
-                    {antal === 0?(BuyButton()):IncreaseDecreaseButton()}
+                    {Quantity === 0?(BuyButton()):IncreaseDecreaseButton()}
             </div>
             </Card.Body>
         </Card>

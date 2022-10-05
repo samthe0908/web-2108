@@ -52,6 +52,7 @@ export function Footer(){
             <Col> </Col>
         </Row>
 
+
             <Modal
             size="sm"
             show={show}

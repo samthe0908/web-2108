@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "cat": "M",
+    "name":"HOTSTONE MASSAGE",
+    "desc": "Hot Stone-massage är varma stenar som används som en del av massagen. Behandlingen hjälper till att minska stress och ångest, främjar avslappning och lindra smärta och muskelspänningar, stärker immunförsvaret och förbättrar sömn.",
+    "price": 300,
+    "image":"images/hotstone.jpg"
+
+  },
+  {
+    "id": 2,
+    "cat": "M",
+    "name":"DUO MASSAGE",
+    "desc": "Släpp all stress för en stund och njut av en avkopplande stund tillsammans med någon du tycker om.  I harmonisk miljö tas ni om hand av erfarna spaterapeuter som gör allt för att ni ska få en rofylld stund. Att dela en sådan upplevelse med någon man håller kär är som balsam för både kropp och själ.",
+    "price": 300,
+    "image": "images/duo.jpg"
+
+  },
+  {
+    "id": 3,
+    "cat": "M",
+    "name":"AYURVEDISK MASSAGE",
+    "desc": "Abhyanga är den vanligaste och mest använda helkroppsmassagen inom Ayurveda där varm olja används. Den passar alla doshor (kroppstyp), passar förträffligt för personer med Vata-inslag. Massagen är behaglig, djup avkopplande för både kroppsligt och mentalt. Behandlingen stärker nervsystemet, cirkulationen och vitaliteten ökar och muskler och leder mjukas upp. Ama, dvs slaggprodukter renas och tas bort.",
+    "price": 300,
+    "image": "/images/AYURVEDISK-RYGGBEHANDLING_300x200.jpg"
+
+  },
+  {
+    "id": 4,
+    "cat": "M",
+    "name":"RYGG OCH AXLAR",
+    "desc": "Den här behandlingslängden är anpassad för rygg, skulderblad och nacke. Men vid varje enskilt tillfälle kommer vi överens om en behandling som passar just dig. En Halvkropp där det finns gott om tid att arbeta igenom de delar där du har behov. Vi kan t.ex massera rygg och armar eller lägga fokus på något område med extra spänningar eller behov.",
+    "price": 300,
+    "image": "/images/massage2.jpg"
+  },
+  {
+    "id": 5,
+    "cat": "F",
+    "name":"CABON LASER",
+    "desc": "Carbon laser peeling är en laserteknik där man använder en kol-lotion som fotoförstärkare för att uppnå flera terapeutiska-kosmetiska effekter på huden som behandlas. En medicinsk aktivt kol-lotion appliceras på huden och får torka i ca tio minuter. Sedan används en Q-switchad Nd:YAG laser för att värma och orsaka implosioner av kolpartiklarna som leder till att bryta ner kolet till små partiklar..",
+    "price": 499,
+    "image":"images/cabonlaser.jpg"
+
+  },
+  {
+    "id": 6,
+    "cat": "F",
+    "name":"GRÖN LERMASK",
+    "desc": "Soltorkad grön lera har en enastående rengörande kraft. Det tar bort orenheter, även i de djupare hudlagren. Grön lera ger optimal vård för alla med känslig eller oren hud, men även för hudtyper vars hy är i behov av en akut avgiftande frisk-kick. Grön lera lugnar huden och avlägsnar orenheter på djupet som kan vara orsakade av kemiska avlagringar av kosmetika. ",
+    "price": 399,
+    "image": "images/gronleramask_300x200.jpg"
+
+  },
+  {
+    "id": 7,
+    "cat": "F",
+    "name":"DERMAPEN MICRONEEDLING",
+    "desc": "Microneedling är en avancerad djupgående behandling som innebär att minimala nålar förs över hela hudytan för att skapa små mikrokanaler i det översta hudlagret. Det stimulerar blodcirkulationen och bildandet av kollagen, vilket har en föryngrande effekt på hela hudens kvalitet och utseende.Behandlingen kan också användas för att slussa ner olika verksamma produkter som hyaluronsyra eller vitaminer djupare i huden, för en större effekt som jämnar ut och stärker hela hudytan.",
+    "price": 499,
+    "image": "images/dermapen.jpg"
+
+  },
+  {
+    "id": 8,
+    "cat": "F",
+    "name": "CLASSISK BEHANDLING",
+    "desc": "Våra ansiktsbehandlingar finns i olika utförande för att passa just din huds behov. Behandlingarna verkar renande, återfuktande och skräddarsys efter önskad effekt ",
+    "price": 349,
+    "image": "images/ånga.jpg"
+  }
+]

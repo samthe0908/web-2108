@@ -26,7 +26,7 @@ export function MainNavbar(){
                         <Nav.Link href="/FaceTreatmentView" style={{color:"#AE9A63", fontSize:"large"}}>BEHANDLINGAR</Nav.Link>
                         <Nav.Link href="/OfferView" style={{color:"#AE9A63", fontSize:"large"}}>ERBJUDANDE</Nav.Link>
                         <Nav.Link href="/AboutView" style={{color:"#AE9A63", fontSize:"large"}}>OM MIG</Nav.Link>
-                        <Nav.Link href="/TreatmentView" style={{color:"#AE9A63", fontSize:"large"}}>Alla</Nav.Link>
+                        <Nav.Link href="/SearchView" style={{color:"#AE9A63", fontSize:"large"}}>Alla</Nav.Link>
                     </Nav>
                     <FaSistrix
                     style={{color:"#AE9A63", fontSize: "40px"}}

@@ -1,11 +1,10 @@
 import React, {useState} from "react";
-import css from "./MassageView.module.css";
 import {Col, Container, Form, Row} from "react-bootstrap";
 import treatmentData from "../data/treatment.json"
 import {SearchCard} from "../components/SearchCard";
 
 
-export function TreatmentView(){
+export function SearchView(){
     const [searchText, setSearchText ]= useState("treatmentData")
     const onSearchChange = (value) => {
         const newSearchText = treatmentData.filter((searchData)=>

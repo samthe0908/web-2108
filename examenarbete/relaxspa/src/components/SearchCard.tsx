@@ -1,28 +1,21 @@
-import {Card, Row, Col, Button} from "react-bootstrap";
+import {Card, Button} from "react-bootstrap";
 import React from "react";
 
 type SearchItemProp ={
-    id: number
-    cat:string
     name: string
     desc:string
-    price: number
     image:string
 }
 
-export function SearchCard({id, cat, name, desc, price, image}:SearchItemProp){
+export function SearchCard({ name, desc, image}:SearchItemProp){
 
        return (
-        <div style={{color: "#AE9A63"}}>
 
-            <Row md={2} xs={1} lg={4} >
-                <Col >
-                    <Card className="h-100">
+                <Card className="h-100">
                         <Card.Img
                             variant="top"
                             src={image}
                             height="200px"
-                            width="500px"
                             style={{objectFit: "cover"}}/>
                         <Card.Body className="d-flex flex-column">
                         <Card.Title className="d-flex mb-4">
@@ -39,9 +32,8 @@ export function SearchCard({id, cat, name, desc, price, image}:SearchItemProp){
                                 }}>BOKA</Button>
                         </Card.Body>
                     </Card>
-                </Col>
-            </Row>
-        </div>
+
+
     )}
 
 

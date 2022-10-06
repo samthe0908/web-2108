@@ -2,14 +2,11 @@ import React from "react";
 import {Card, Button} from "react-bootstrap";
 
 type MassageItemProp ={
-    id: number
-    cat:string
     name: string
     desc:string
-    price: number
     image:string
 }
-export function MassageCard({id, cat, name, desc, price, image}:MassageItemProp){
+export function MassageCard({name, desc, image}:MassageItemProp){
     return(
     <Card className="h-100">
         <Card.Img

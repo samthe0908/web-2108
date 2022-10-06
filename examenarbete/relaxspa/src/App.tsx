@@ -8,7 +8,6 @@ import {Footer} from "./components/Footer/Footer";
 import {OfferView} from "./pages/OfferView";
 import {AboutView} from "./pages/AboutView";
 import {CartProvider} from "./context/CartContext";
-import {SearchView} from "./pages/SearchView";
 
 
 function App() {
@@ -22,7 +21,6 @@ function App() {
                      <Route path="/FaceTreatmentView" element={<FaceTreatmentView/>}/>
                     <Route path="/OfferView" element={<OfferView/>}/>
                     <Route path="/AboutView" element={<AboutView/>}/>
-                    <Route path="/SearchView" element={<SearchView/>}/>
                 </Routes>
             <Footer/>
         </CartProvider>

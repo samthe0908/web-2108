@@ -2,14 +2,11 @@ import React from "react";
 import {Card, Button} from "react-bootstrap";
 
 type FaceTreatmentItemProp ={
-    id: number
-    cat:string
     name: string
     desc:string
-    price: number
     image:string
 }
-export function FaceTreatmentCard({id, cat, name, desc, price, image}:FaceTreatmentItemProp){
+export function FaceTreatmentCard({name, desc, image}:FaceTreatmentItemProp){
     return(
         <Card className="h-100">
             <Card.Img

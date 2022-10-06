@@ -1,8 +1,9 @@
 import React, {useState} from "react";
-import {Container,Navbar, Nav, Form, Button, Modal} from "react-bootstrap";
+import {Container,Navbar, Nav,  Modal} from "react-bootstrap";
 import logo from "../../img/relaxspalogo1.png"
 import {FaShoppingCart, FaSistrix} from "react-icons/fa";
 import {useCart} from "../../context/CartContext";
+import {SearchView} from "../../pages/SearchView";
 
 
 export function MainNavbar(){
@@ -26,7 +27,7 @@ export function MainNavbar(){
                         <Nav.Link href="/FaceTreatmentView" style={{color:"#AE9A63", fontSize:"large"}}>BEHANDLINGAR</Nav.Link>
                         <Nav.Link href="/OfferView" style={{color:"#AE9A63", fontSize:"large"}}>ERBJUDANDE</Nav.Link>
                         <Nav.Link href="/AboutView" style={{color:"#AE9A63", fontSize:"large"}}>OM MIG</Nav.Link>
-                        <Nav.Link href="/SearchView" style={{color:"#AE9A63", fontSize:"large"}}>Alla</Nav.Link>
+                        {/*<Nav.Link href="/SearchView" style={{color:"#AE9A63", fontSize:"large"}}>Alla</Nav.Link>*/}
                     </Nav>
                     <FaSistrix
                     style={{color:"#AE9A63", fontSize: "40px"}}
@@ -64,28 +65,15 @@ export function MainNavbar(){
                 onHide={handleClose}
                 backdrop="static"
                 keyboard={false}
-
             >
-
-                    <Modal.Header closeButton className="align" style={{backgroundColor: "#D9D9D9", color: "#AE9A63"}}>
-                        <Form>
-                        <Form.Control
-                            size="lg"
-                            className="d-fle"
-                            id="searchInput"
-                            type="search"
-                            placeholder= "sök"
-                            aria-label="Search"
-
-                            // onChange={onchange}
-                        />
-                        </Form>
+                <Modal.Header closeButton style={{backgroundColor: "#D9D9D9", color: "#AE9A63", }}>
+                    <img className="mx-5"  src={logo} width="60"  alt ="logo-img"/>
+                    <h1> RELAXSPA Ditt välmående i fokus </h1>
 
                 </Modal.Header>
 
                 <Modal.Body  style={{backgroundColor: "#D9D9D9", color: "#AE9A63", textAlign: "center"}}>
-                    I will not close if you click outside me. Don't even try to press
-                    escape key.
+                    <SearchView/>
                 </Modal.Body>
 
             </Modal>

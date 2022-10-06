@@ -39,10 +39,12 @@ Jag löste problem med bilderna genom att lade in bildmapp i publik-mapp iställ
 - Om mig page. Denna sida tillämpade jag ett annat node paket som heter VIVUS för att skapa animerat text.  
   Jag har även installerat ett annat paket som heter FRAMER MOTION, också för animeringen, men det slutade med att jag kraschade programmet, så jag tog bort det.
 ## Vecka 7 (v.39)  
+####Skapat under denna vecka
  - Skapat OfferView med Köp-funktion. Denna sida är svårat i projektet.  
  Stöttade på ett problem som hade egentligen inte med själva funktion som jag skapade. Problemet var att "react-scripts" var av äldre version. Hittade lösning på problemet från https://stackoverflow.com/
- - Ändrat importen av data från JSON fil, från enskilda datafil för varje sida till en samlad datatil av alla behandlingar, sedan används ".filter" för att renderar ut det jag vill ha till respektiva sida.
+ - Ändrat importen av data från JSON fil, från enskilda datafil för varje sida till en samlad data fil av alla behandlingar, sedan används ".filter" för att renderar ut det jag vill ha till respektiva sida.
 ## Vecka 8 (v.40)  
+####Skapat under denna vecka
  - Skapat Sök-funktion och använd modal rendering av sökresultat. Flyttade ner Sök-ruta- form i modal, vilket gör att det blir lättare att skapa funktioner
  - ändrat variabel namn så att det visa vad den gör och ändrat från svenska till engelska 
  - finslipat alla filer, färdigställt dokumentation.
